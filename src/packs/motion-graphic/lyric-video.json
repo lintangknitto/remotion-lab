@@ -1,0 +1,30 @@
+{
+  "id": "motion-graphic/lyric-video",
+  "family": "motion-graphic",
+  "genre": "lyric-video",
+  "label": "Lyric Video",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "16:9",
+    "fps": 30,
+    "cutFrames": [
+      20,
+      60
+    ],
+    "duration": [
+      30,
+      90
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.emotional-01"
+    ],
+    "overlay": [
+      "image.lightleak.cool-01"
+    ]
+  },
+  "missing": [
+    "lirik + timing"
+  ]
+}

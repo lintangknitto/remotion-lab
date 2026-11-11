@@ -1,0 +1,30 @@
+{
+  "id": "cinematic/mini-doc",
+  "family": "cinematic",
+  "genre": "mini-doc",
+  "label": "Mini Doc",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "16:9",
+    "fps": 24,
+    "cutFrames": [
+      80,
+      240
+    ],
+    "duration": [
+      180,
+      600
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.tension-01"
+    ],
+    "ambience": [
+      "sfx.static.hiss-01"
+    ]
+  },
+  "missing": [
+    "footage interview + b-roll"
+  ]
+}

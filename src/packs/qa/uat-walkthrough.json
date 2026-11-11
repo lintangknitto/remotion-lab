@@ -1,0 +1,27 @@
+{
+  "id": "qa/uat-walkthrough",
+  "family": "qa",
+  "genre": "uat-walkthrough",
+  "label": "UAT Walkthrough",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "16:9",
+    "fps": 30,
+    "cutFrames": [
+      60,
+      180
+    ],
+    "duration": [
+      30,
+      180
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.corporate-01"
+    ]
+  },
+  "missing": [
+    "rekaman alur fitur"
+  ]
+}

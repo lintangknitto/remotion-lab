@@ -1,0 +1,33 @@
+{
+  "id": "slideshow/photodump",
+  "family": "slideshow",
+  "genre": "photodump",
+  "label": "Photodump",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      10,
+      20
+    ],
+    "duration": [
+      10,
+      20
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.lofi-01"
+    ],
+    "image": [
+      "image.bokeh.party-01"
+    ],
+    "transition": [
+      "sfx.camera.shutter-01"
+    ]
+  },
+  "missing": [
+    "foto"
+  ]
+}

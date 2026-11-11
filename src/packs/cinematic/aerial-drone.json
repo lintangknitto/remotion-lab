@@ -1,0 +1,30 @@
+{
+  "id": "cinematic/aerial-drone",
+  "family": "cinematic",
+  "genre": "aerial-drone",
+  "label": "Aerial / Drone",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "16:9",
+    "fps": 30,
+    "cutFrames": [
+      60,
+      180
+    ],
+    "duration": [
+      60,
+      150
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.uplift-01"
+    ],
+    "image": [
+      "image.gradient.mesh-02"
+    ]
+  },
+  "missing": [
+    "footage drone"
+  ]
+}

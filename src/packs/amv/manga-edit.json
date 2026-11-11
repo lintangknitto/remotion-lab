@@ -1,0 +1,31 @@
+{
+  "id": "amv/manga-edit",
+  "family": "amv",
+  "genre": "manga-edit",
+  "label": "Manga Edit",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      4,
+      10
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.tension-01"
+    ],
+    "texture": [
+      "texture.halftone.dots-01"
+    ],
+    "clip": []
+  },
+  "missing": [
+    "panel manga / scan"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "clipping/podcast-clip",
+  "family": "clipping",
+  "genre": "podcast-clip",
+  "label": "Podcast Clip",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      4,
+      10
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.lofi-01"
+    ],
+    "ambience": [
+      "sfx.static.hiss-01"
+    ]
+  },
+  "missing": [
+    "video panjang + transkrip (whisper)",
+    "caption pack (karaoke)"
+  ]
+}

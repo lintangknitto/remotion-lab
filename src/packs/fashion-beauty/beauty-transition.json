@@ -1,0 +1,30 @@
+{
+  "id": "fashion-beauty/beauty-transition",
+  "family": "fashion-beauty",
+  "genre": "beauty-transition",
+  "label": "Beauty Transition",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      4,
+      10
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.lofi-01"
+    ],
+    "whoosh": [
+      "sfx.swoosh.card-01"
+    ]
+  },
+  "missing": [
+    "dua footage before/after"
+  ]
+}

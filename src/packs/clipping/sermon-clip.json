@@ -1,0 +1,30 @@
+{
+  "id": "clipping/sermon-clip",
+  "family": "clipping",
+  "genre": "sermon-clip",
+  "label": "Sermon / Kajian Clip",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      12,
+      40
+    ],
+    "duration": [
+      20,
+      45
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.emotional-01"
+    ],
+    "overlay": [
+      "image.gradient.dark-01"
+    ]
+  },
+  "missing": [
+    "frame ayat / teks arab"
+  ]
+}

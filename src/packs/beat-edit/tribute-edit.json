@@ -1,0 +1,33 @@
+{
+  "id": "beat-edit/tribute-edit",
+  "family": "beat-edit",
+  "genre": "tribute-edit",
+  "label": "Tribute Edit",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      12,
+      40
+    ],
+    "duration": [
+      20,
+      45
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.emotional-01"
+    ],
+    "texture": [
+      "texture.noise.film-4k"
+    ],
+    "overlay": [
+      "texture.vignette.soft-01"
+    ]
+  },
+  "missing": [
+    "foto/klip subjek"
+  ]
+}

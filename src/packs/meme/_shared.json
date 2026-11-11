@@ -1,0 +1,20 @@
+{
+  "id": "meme/_shared",
+  "family": "meme",
+  "label": "Meme (shared)",
+  "slots": {
+    "ui": [
+      "sfx.pop.notify-01",
+      "sfx.click.ui-01"
+    ],
+    "glitch": [
+      "sfx.glitch.digital-02"
+    ],
+    "impact": [
+      "sfx.impact.soft-01"
+    ],
+    "whoosh": [
+      "sfx.whoosh.fast-01"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "talking-head/ugc",
+  "family": "talking-head",
+  "genre": "ugc",
+  "label": "UGC",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      4,
+      10
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.uplift-01"
+    ]
+  },
+  "missing": [
+    "footage creator",
+    "caption pack"
+  ]
+}

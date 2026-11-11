@@ -1,0 +1,32 @@
+{
+  "id": "beat-edit/black-flash",
+  "family": "beat-edit",
+  "genre": "black-flash",
+  "label": "Black Flash",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      6,
+      12
+    ],
+    "duration": [
+      8,
+      15
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.remix.punchy-01"
+    ],
+    "impact": [
+      "sfx.impact.heavy-02",
+      "sfx.impact.metal-01"
+    ],
+    "overlay": [
+      "texture.vignette.soft-01"
+    ]
+  },
+  "missing": []
+}

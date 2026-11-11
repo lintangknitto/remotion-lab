@@ -1,0 +1,28 @@
+{
+  "id": "clipping/youtube-clip",
+  "family": "clipping",
+  "genre": "youtube-clip",
+  "label": "YouTube Clip",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      4,
+      10
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.corporate-01"
+    ]
+  },
+  "missing": [
+    "video panjang",
+    "caption pack"
+  ]
+}

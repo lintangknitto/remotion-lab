@@ -1,0 +1,31 @@
+{
+  "id": "ads/live-shop-recap",
+  "family": "ads",
+  "genre": "live-shop-recap",
+  "label": "Live Shop Recap",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      4,
+      10
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.remix.punchy-01"
+    ],
+    "ui": [
+      "sfx.coin.reward-01"
+    ]
+  },
+  "missing": [
+    "rekaman live",
+    "harga/produk card"
+  ]
+}

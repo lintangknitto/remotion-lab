@@ -1,0 +1,31 @@
+{
+  "id": "gaming/fragmovie",
+  "family": "gaming",
+  "genre": "fragmovie",
+  "label": "Fragmovie",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "16:9",
+    "fps": 30,
+    "cutFrames": [
+      20,
+      60
+    ],
+    "duration": [
+      30,
+      90
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.tension-01"
+    ],
+    "impact": [
+      "sfx.boom.cinematic-01"
+    ]
+  },
+  "missing": [
+    "demo/replay",
+    "hitmarker SFX"
+  ]
+}

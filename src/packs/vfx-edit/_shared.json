@@ -1,0 +1,20 @@
+{
+  "id": "vfx-edit/_shared",
+  "family": "vfx-edit",
+  "label": "VFX Edit (shared)",
+  "slots": {
+    "glitch": [
+      "sfx.glitch.digital-01"
+    ],
+    "overlay": [
+      "texture.bokeh.soft-01",
+      "image.flare.anamorphic-01"
+    ],
+    "texture": [
+      "texture.noise.digital-01"
+    ],
+    "whoosh": [
+      "sfx.whoosh.fast-01"
+    ]
+  }
+}

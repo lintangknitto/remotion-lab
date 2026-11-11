@@ -1,0 +1,32 @@
+{
+  "id": "gaming/gaming-montage",
+  "family": "gaming",
+  "genre": "gaming-montage",
+  "label": "Gaming Montage",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      4,
+      10
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.remix.punchy-01"
+    ],
+    "ui": [
+      "sfx.coin.reward-01"
+    ]
+  },
+  "missing": [
+    "gameplay footage",
+    "HUD overlay",
+    "kill feed"
+  ]
+}

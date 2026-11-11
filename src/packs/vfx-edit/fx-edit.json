@@ -1,0 +1,31 @@
+{
+  "id": "vfx-edit/fx-edit",
+  "family": "vfx-edit",
+  "genre": "fx-edit",
+  "label": "FX Edit",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      4,
+      10
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "glitch": [
+      "sfx.glitch.digital-01",
+      "sfx.glitch.digital-02"
+    ],
+    "transition": [
+      "sfx.tape.stop-01"
+    ]
+  },
+  "missing": [
+    "effect preset per klip (mask/clone) — butuh komponen baru"
+  ]
+}

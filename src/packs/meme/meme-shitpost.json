@@ -1,0 +1,30 @@
+{
+  "id": "meme/meme-shitpost",
+  "family": "meme",
+  "genre": "meme-shitpost",
+  "label": "Meme / Shitpost",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      2,
+      8
+    ],
+    "duration": [
+      5,
+      20
+    ]
+  },
+  "slots": {
+    "impact": [
+      "sfx.impact.metal-01"
+    ],
+    "music": [
+      "music.remix.punchy-01"
+    ]
+  },
+  "missing": [
+    "meme image / greenscreen"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "slideshow/birthday-video",
+  "family": "slideshow",
+  "genre": "birthday-video",
+  "label": "Birthday Video",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "1:1",
+    "fps": 30,
+    "cutFrames": [
+      20,
+      45
+    ],
+    "duration": [
+      20,
+      40
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.uplift-01"
+    ],
+    "image": [
+      "image.confetti.burst-01"
+    ]
+  },
+  "missing": [
+    "foto + ucapan"
+  ]
+}

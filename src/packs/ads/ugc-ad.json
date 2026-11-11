@@ -1,0 +1,30 @@
+{
+  "id": "ads/ugc-ad",
+  "family": "ads",
+  "genre": "ugc-ad",
+  "label": "UGC Ad",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      4,
+      10
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.lofi-01"
+    ],
+    "impact": [
+      "sfx.impact.soft-01"
+    ]
+  },
+  "missing": [
+    "footage creator"
+  ]
+}

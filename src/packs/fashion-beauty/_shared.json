@@ -1,0 +1,22 @@
+{
+  "id": "fashion-beauty/_shared",
+  "family": "fashion-beauty",
+  "label": "Fashion & Beauty (shared)",
+  "slots": {
+    "whoosh": [
+      "sfx.whoosh.fast-01"
+    ],
+    "texture": [
+      "texture.vhs.scanline-01"
+    ],
+    "ui": [
+      "sfx.click.ui-01"
+    ],
+    "impact": [
+      "sfx.impact.soft-01"
+    ],
+    "overlay": [
+      "image.flare.anamorphic-01"
+    ]
+  }
+}

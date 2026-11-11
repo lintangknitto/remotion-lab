@@ -1,0 +1,27 @@
+{
+  "id": "greeting/wisuda",
+  "family": "greeting",
+  "genre": "wisuda",
+  "label": "Wisuda",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      30,
+      60
+    ],
+    "duration": [
+      20,
+      40
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.uplift-01"
+    ]
+  },
+  "missing": [
+    "foto wisudawan"
+  ]
+}

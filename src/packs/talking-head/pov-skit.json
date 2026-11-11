@@ -1,0 +1,30 @@
+{
+  "id": "talking-head/pov-skit",
+  "family": "talking-head",
+  "genre": "pov-skit",
+  "label": "POV / Skit",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      4,
+      10
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "ui": [
+      "sfx.click.ui-02"
+    ],
+    "glitch": [
+      "sfx.glitch.digital-02"
+    ]
+  },
+  "missing": [
+    "footage akting"
+  ]
+}

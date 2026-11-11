@@ -1,0 +1,610 @@
+{
+  "generatedAt": "2026-11-11T06:35:24.642Z",
+  "root": "public/library",
+  "count": 57,
+  "totalBytes": 33466193,
+  "byType": {
+    "image": 16,
+    "music": 6,
+    "sfx": 22,
+    "texture": 10,
+    "vo": 3
+  },
+  "assets": [
+    {
+      "id": "image.bokeh.party-01",
+      "type": "image",
+      "sub": "bokeh",
+      "path": "library/images/image.bokeh.party-01.png",
+      "ext": ".png",
+      "bytes": 480901,
+      "sha256": "2509412e14a535a6",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "image.caption.arrow-01",
+      "type": "image",
+      "sub": "caption",
+      "path": "library/images/image.caption.arrow-01.png",
+      "ext": ".png",
+      "bytes": 2000,
+      "sha256": "d985b777536b9be6",
+      "width": 900,
+      "height": 260
+    },
+    {
+      "id": "image.caption.box-01",
+      "type": "image",
+      "sub": "caption",
+      "path": "library/images/image.caption.box-01.png",
+      "ext": ".png",
+      "bytes": 1639,
+      "sha256": "07d3f9254bbf9620",
+      "width": 900,
+      "height": 260
+    },
+    {
+      "id": "image.caption.bubble-01",
+      "type": "image",
+      "sub": "caption",
+      "path": "library/images/image.caption.bubble-01.png",
+      "ext": ".png",
+      "bytes": 1912,
+      "sha256": "181a90c8bd0b198f",
+      "width": 900,
+      "height": 260
+    },
+    {
+      "id": "image.caption.pill-01",
+      "type": "image",
+      "sub": "caption",
+      "path": "library/images/image.caption.pill-01.png",
+      "ext": ".png",
+      "bytes": 1783,
+      "sha256": "3ddbb791f0ca8935",
+      "width": 900,
+      "height": 260
+    },
+    {
+      "id": "image.caption.stroke-01",
+      "type": "image",
+      "sub": "caption",
+      "path": "library/images/image.caption.stroke-01.png",
+      "ext": ".png",
+      "bytes": 17589,
+      "sha256": "4e64f37aae9f62b3",
+      "width": 900,
+      "height": 260
+    },
+    {
+      "id": "image.caption.underline-01",
+      "type": "image",
+      "sub": "caption",
+      "path": "library/images/image.caption.underline-01.png",
+      "ext": ".png",
+      "bytes": 5727,
+      "sha256": "ae5c7b234a9ceb35",
+      "width": 900,
+      "height": 260
+    },
+    {
+      "id": "image.confetti.burst-01",
+      "type": "image",
+      "sub": "confetti",
+      "path": "library/images/image.confetti.burst-01.png",
+      "ext": ".png",
+      "bytes": 29072,
+      "sha256": "47f4ca4562ee34ba",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "image.flare.anamorphic-01",
+      "type": "image",
+      "sub": "flare",
+      "path": "library/images/image.flare.anamorphic-01.png",
+      "ext": ".png",
+      "bytes": 14872,
+      "sha256": "cb04e0822ba6d240",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "image.gradient.dark-01",
+      "type": "image",
+      "sub": "gradient",
+      "path": "library/images/image.gradient.dark-01.png",
+      "ext": ".png",
+      "bytes": 445497,
+      "sha256": "fed369d164411929",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "image.gradient.mesh-01",
+      "type": "image",
+      "sub": "gradient",
+      "path": "library/images/image.gradient.mesh-01.png",
+      "ext": ".png",
+      "bytes": 1246851,
+      "sha256": "de10b8ec2e19ef83",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "image.gradient.mesh-02",
+      "type": "image",
+      "sub": "gradient",
+      "path": "library/images/image.gradient.mesh-02.png",
+      "ext": ".png",
+      "bytes": 1062560,
+      "sha256": "003e993098534bf7",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "image.gradient.mesh-03",
+      "type": "image",
+      "sub": "gradient",
+      "path": "library/images/image.gradient.mesh-03.png",
+      "ext": ".png",
+      "bytes": 1042783,
+      "sha256": "b98c55aed642094b",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "image.lightleak.cool-01",
+      "type": "image",
+      "sub": "lightleak",
+      "path": "library/images/image.lightleak.cool-01.png",
+      "ext": ".png",
+      "bytes": 2319734,
+      "sha256": "28de352420ceacea",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "image.lightleak.warm-01",
+      "type": "image",
+      "sub": "lightleak",
+      "path": "library/images/image.lightleak.warm-01.png",
+      "ext": ".png",
+      "bytes": 2289254,
+      "sha256": "556b8da9da21aae2",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "image.paper.card-01",
+      "type": "image",
+      "sub": "paper",
+      "path": "library/images/image.paper.card-01.png",
+      "ext": ".png",
+      "bytes": 513647,
+      "sha256": "99e7658dd8511d7a",
+      "width": 1200,
+      "height": 800
+    },
+    {
+      "id": "music.bed.corporate-01",
+      "type": "music",
+      "sub": "bed",
+      "path": "library/music/music.bed.corporate-01.wav",
+      "ext": ".wav",
+      "bytes": 846764,
+      "sha256": "b3430b162649b231",
+      "durationSec": 9.6
+    },
+    {
+      "id": "music.bed.emotional-01",
+      "type": "music",
+      "sub": "bed",
+      "path": "library/music/music.bed.emotional-01.wav",
+      "ext": ".wav",
+      "bytes": 1058444,
+      "sha256": "c01320f8cf2577a7",
+      "durationSec": 12
+    },
+    {
+      "id": "music.bed.lofi-01",
+      "type": "music",
+      "sub": "bed",
+      "path": "library/music/music.bed.lofi-01.wav",
+      "ext": ".wav",
+      "bytes": 1058444,
+      "sha256": "cabf95a57c3c3116",
+      "durationSec": 12
+    },
+    {
+      "id": "music.bed.tension-01",
+      "type": "music",
+      "sub": "bed",
+      "path": "library/music/music.bed.tension-01.wav",
+      "ext": ".wav",
+      "bytes": 1058444,
+      "sha256": "9f41086407f5a9f3",
+      "durationSec": 12
+    },
+    {
+      "id": "music.bed.uplift-01",
+      "type": "music",
+      "sub": "bed",
+      "path": "library/music/music.bed.uplift-01.wav",
+      "ext": ".wav",
+      "bytes": 705644,
+      "sha256": "46c992a4cc510d4e",
+      "durationSec": 8
+    },
+    {
+      "id": "music.remix.punchy-01",
+      "type": "music",
+      "sub": "remix",
+      "path": "library/music/music.remix.punchy-01.wav",
+      "ext": ".wav",
+      "bytes": 661544,
+      "sha256": "abb2d52b57a5a548",
+      "durationSec": 7.5
+    },
+    {
+      "id": "sfx.boom.cinematic-01",
+      "type": "sfx",
+      "sub": "boom",
+      "path": "library/sfx/sfx.boom.cinematic-01.wav",
+      "ext": ".wav",
+      "bytes": 141164,
+      "sha256": "d22da84d08c8d13e",
+      "durationSec": 1.6
+    },
+    {
+      "id": "sfx.camera.shutter-01",
+      "type": "sfx",
+      "sub": "camera",
+      "path": "library/sfx/sfx.camera.shutter-01.wav",
+      "ext": ".wav",
+      "bytes": 24740,
+      "sha256": "cc563f00ed6c245f",
+      "durationSec": 0.28
+    },
+    {
+      "id": "sfx.click.ui-01",
+      "type": "sfx",
+      "sub": "click",
+      "path": "library/sfx/sfx.click.ui-01.wav",
+      "ext": ".wav",
+      "bytes": 4012,
+      "sha256": "2b07931574795b35",
+      "durationSec": 0.045
+    },
+    {
+      "id": "sfx.click.ui-02",
+      "type": "sfx",
+      "sub": "click",
+      "path": "library/sfx/sfx.click.ui-02.wav",
+      "ext": ".wav",
+      "bytes": 4894,
+      "sha256": "2164ff0f66a7d40a",
+      "durationSec": 0.055
+    },
+    {
+      "id": "sfx.coin.reward-01",
+      "type": "sfx",
+      "sub": "coin",
+      "path": "library/sfx/sfx.coin.reward-01.wav",
+      "ext": ".wav",
+      "bytes": 44144,
+      "sha256": "f6945b5a25238c0c",
+      "durationSec": 0.5
+    },
+    {
+      "id": "sfx.drop.sub-01",
+      "type": "sfx",
+      "sub": "drop",
+      "path": "library/sfx/sfx.drop.sub-01.wav",
+      "ext": ".wav",
+      "bytes": 97064,
+      "sha256": "2e59ea10c607b13f",
+      "durationSec": 1.1
+    },
+    {
+      "id": "sfx.glitch.digital-01",
+      "type": "sfx",
+      "sub": "glitch",
+      "path": "library/sfx/sfx.glitch.digital-01.wav",
+      "ext": ".wav",
+      "bytes": 44144,
+      "sha256": "5fbd0ed6422896a9",
+      "durationSec": 0.5
+    },
+    {
+      "id": "sfx.glitch.digital-02",
+      "type": "sfx",
+      "sub": "glitch",
+      "path": "library/sfx/sfx.glitch.digital-02.wav",
+      "ext": ".wav",
+      "bytes": 52964,
+      "sha256": "3d765f4c2e920310",
+      "durationSec": 0.6
+    },
+    {
+      "id": "sfx.heartbeat-01",
+      "type": "sfx",
+      "sub": "heartbeat-01",
+      "path": "library/sfx/sfx.heartbeat-01.wav",
+      "ext": ".wav",
+      "bytes": 97064,
+      "sha256": "a830910ef78744b3",
+      "durationSec": 1.1
+    },
+    {
+      "id": "sfx.impact.heavy-01",
+      "type": "sfx",
+      "sub": "impact",
+      "path": "library/sfx/sfx.impact.heavy-01.wav",
+      "ext": ".wav",
+      "bytes": 79424,
+      "sha256": "d5294424faf7a855",
+      "durationSec": 0.9
+    },
+    {
+      "id": "sfx.impact.heavy-02",
+      "type": "sfx",
+      "sub": "impact",
+      "path": "library/sfx/sfx.impact.heavy-02.wav",
+      "ext": ".wav",
+      "bytes": 105884,
+      "sha256": "ba6174474cde8493",
+      "durationSec": 1.2
+    },
+    {
+      "id": "sfx.impact.metal-01",
+      "type": "sfx",
+      "sub": "impact",
+      "path": "library/sfx/sfx.impact.metal-01.wav",
+      "ext": ".wav",
+      "bytes": 61782,
+      "sha256": "47028539a7af039d",
+      "durationSec": 0.7
+    },
+    {
+      "id": "sfx.impact.soft-01",
+      "type": "sfx",
+      "sub": "impact",
+      "path": "library/sfx/sfx.impact.soft-01.wav",
+      "ext": ".wav",
+      "bytes": 35324,
+      "sha256": "f04f9eb8fbad4fb9",
+      "durationSec": 0.4
+    },
+    {
+      "id": "sfx.pop.notify-01",
+      "type": "sfx",
+      "sub": "pop",
+      "path": "library/sfx/sfx.pop.notify-01.wav",
+      "ext": ".wav",
+      "bytes": 15920,
+      "sha256": "816203098f0076c7",
+      "durationSec": 0.18
+    },
+    {
+      "id": "sfx.riser.tension-01",
+      "type": "sfx",
+      "sub": "riser",
+      "path": "library/sfx/sfx.riser.tension-01.wav",
+      "ext": ".wav",
+      "bytes": 220544,
+      "sha256": "d8cb2ade79bdd4ed",
+      "durationSec": 2.5
+    },
+    {
+      "id": "sfx.static.hiss-01",
+      "type": "sfx",
+      "sub": "static",
+      "path": "library/sfx/sfx.static.hiss-01.wav",
+      "ext": ".wav",
+      "bytes": 176444,
+      "sha256": "a673d7f379908d33",
+      "durationSec": 2
+    },
+    {
+      "id": "sfx.swipe.ui-01",
+      "type": "sfx",
+      "sub": "swipe",
+      "path": "library/sfx/sfx.swipe.ui-01.wav",
+      "ext": ".wav",
+      "bytes": 17684,
+      "sha256": "62562a74755e6bbd",
+      "durationSec": 0.2
+    },
+    {
+      "id": "sfx.swoosh.card-01",
+      "type": "sfx",
+      "sub": "swoosh",
+      "path": "library/sfx/sfx.swoosh.card-01.wav",
+      "ext": ".wav",
+      "bytes": 52964,
+      "sha256": "a91cbd1fa89ecfc9",
+      "durationSec": 0.6
+    },
+    {
+      "id": "sfx.tape.stop-01",
+      "type": "sfx",
+      "sub": "tape",
+      "path": "library/sfx/sfx.tape.stop-01.wav",
+      "ext": ".wav",
+      "bytes": 79424,
+      "sha256": "2f05d2e6e624e1b1",
+      "durationSec": 0.9
+    },
+    {
+      "id": "sfx.typewriter.loop-01",
+      "type": "sfx",
+      "sub": "typewriter",
+      "path": "library/sfx/sfx.typewriter.loop-01.wav",
+      "ext": ".wav",
+      "bytes": 153512,
+      "sha256": "71653d317cab4710",
+      "durationSec": 1.74
+    },
+    {
+      "id": "sfx.whoosh.fast-01",
+      "type": "sfx",
+      "sub": "whoosh",
+      "path": "library/sfx/sfx.whoosh.fast-01.wav",
+      "ext": ".wav",
+      "bytes": 39734,
+      "sha256": "317a4443e982349e",
+      "durationSec": 0.45
+    },
+    {
+      "id": "sfx.whoosh.slow-01",
+      "type": "sfx",
+      "sub": "whoosh",
+      "path": "library/sfx/sfx.whoosh.slow-01.wav",
+      "ext": ".wav",
+      "bytes": 110294,
+      "sha256": "28aa83555e86c89e",
+      "durationSec": 1.25
+    },
+    {
+      "id": "texture.bokeh.soft-01",
+      "type": "texture",
+      "sub": "bokeh",
+      "path": "library/textures/texture.bokeh.soft-01.png",
+      "ext": ".png",
+      "bytes": 112576,
+      "sha256": "bf5b56c856b60eb3",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": "texture.dust.scratches-01",
+      "type": "texture",
+      "sub": "dust",
+      "path": "library/textures/texture.dust.scratches-01.png",
+      "ext": ".png",
+      "bytes": 24222,
+      "sha256": "43a142350b5cee26",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": "texture.grid.blueprint-01",
+      "type": "texture",
+      "sub": "grid",
+      "path": "library/textures/texture.grid.blueprint-01.png",
+      "ext": ".png",
+      "bytes": 6307,
+      "sha256": "ea25802156766fd3",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": "texture.halftone.dots-01",
+      "type": "texture",
+      "sub": "halftone",
+      "path": "library/textures/texture.halftone.dots-01.png",
+      "ext": ".png",
+      "bytes": 218219,
+      "sha256": "fc5347668549c376",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": "texture.noise.digital-01",
+      "type": "texture",
+      "sub": "noise",
+      "path": "library/textures/texture.noise.digital-01.png",
+      "ext": ".png",
+      "bytes": 896967,
+      "sha256": "33eca62d004d8f32",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "id": "texture.noise.film-4k",
+      "type": "texture",
+      "sub": "noise",
+      "path": "library/textures/texture.noise.film-4k.png",
+      "ext": ".png",
+      "bytes": 325103,
+      "sha256": "6b63ac9d5afa96a3",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "id": "texture.paper.fiber-01",
+      "type": "texture",
+      "sub": "paper",
+      "path": "library/textures/texture.paper.fiber-01.png",
+      "ext": ".png",
+      "bytes": 733732,
+      "sha256": "c6fdb4072ea4e03a",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": "texture.vhs.scanline-01",
+      "type": "texture",
+      "sub": "vhs",
+      "path": "library/textures/texture.vhs.scanline-01.png",
+      "ext": ".png",
+      "bytes": 1093995,
+      "sha256": "beff43cc12ad6c7a",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": "texture.vhs.tracking-01",
+      "type": "texture",
+      "sub": "vhs",
+      "path": "library/textures/texture.vhs.tracking-01.png",
+      "ext": ".png",
+      "bytes": 6128,
+      "sha256": "587b65c67dc1ca93",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": "texture.vignette.soft-01",
+      "type": "texture",
+      "sub": "vignette",
+      "path": "library/textures/texture.vignette.soft-01.png",
+      "ext": ".png",
+      "bytes": 72011,
+      "sha256": "1b958b15d381be33",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": "vo.podcast.demo-01",
+      "type": "vo",
+      "sub": "podcast",
+      "path": "library/vo/vo.podcast.demo-01.wav",
+      "ext": ".wav",
+      "bytes": 2698492,
+      "sha256": "f6a739efb2a18908",
+      "durationSec": 15.297
+    },
+    {
+      "id": "vo.podcast.id-demo-01",
+      "type": "vo",
+      "sub": "podcast",
+      "path": "library/vo/vo.podcast.id-demo-01.mp3",
+      "ext": ".mp3",
+      "bytes": 73008,
+      "sha256": "fcf1472fdeb8bbba"
+    },
+    {
+      "id": "vo.podcast.long-01",
+      "type": "vo",
+      "sub": "podcast",
+      "path": "library/vo/vo.podcast.long-01.wav",
+      "ext": ".wav",
+      "bytes": 10681204,
+      "sha256": "097f392a2fce7d52",
+      "durationSec": 60.551
+    }
+  ]
+}

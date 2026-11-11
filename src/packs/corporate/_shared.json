@@ -1,0 +1,25 @@
+{
+  "id": "corporate/_shared",
+  "family": "corporate",
+  "label": "Corporate (shared)",
+  "slots": {
+    "whoosh": [
+      "sfx.swoosh.card-01"
+    ],
+    "overlay": [
+      "texture.vignette.soft-01"
+    ],
+    "background": [
+      "image.gradient.dark-01"
+    ],
+    "ui": [
+      "sfx.click.ui-01"
+    ],
+    "impact": [
+      "sfx.impact.soft-01"
+    ],
+    "texture": [
+      "texture.noise.film-4k"
+    ]
+  }
+}

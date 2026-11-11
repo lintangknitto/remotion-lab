@@ -1,0 +1,30 @@
+{
+  "id": "vfx-edit/clone-morph",
+  "family": "vfx-edit",
+  "genre": "clone-morph",
+  "label": "Clone / Morph",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      12,
+      40
+    ],
+    "duration": [
+      20,
+      45
+    ]
+  },
+  "slots": {
+    "whoosh": [
+      "sfx.whoosh.slow-01"
+    ],
+    "texture": [
+      "texture.dust.scratches-01"
+    ]
+  },
+  "missing": [
+    "footage dua subjek identik"
+  ]
+}

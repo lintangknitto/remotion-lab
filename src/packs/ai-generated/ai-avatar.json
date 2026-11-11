@@ -1,0 +1,28 @@
+{
+  "id": "ai-generated/ai-avatar",
+  "family": "ai-generated",
+  "genre": "ai-avatar",
+  "label": "AI Avatar",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      4,
+      10
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.corporate-01"
+    ]
+  },
+  "missing": [
+    "avatar footage",
+    "script"
+  ]
+}

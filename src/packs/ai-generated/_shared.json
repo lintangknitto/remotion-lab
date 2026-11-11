@@ -1,0 +1,13 @@
+{
+  "id": "ai-generated/_shared",
+  "family": "ai-generated",
+  "label": "AI Generated (shared)",
+  "slots": {
+    "texture": [
+      "texture.noise.film-4k"
+    ],
+    "whoosh": [
+      "sfx.swoosh.card-01"
+    ]
+  }
+}

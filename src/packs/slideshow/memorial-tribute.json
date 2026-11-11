@@ -1,0 +1,36 @@
+{
+  "id": "slideshow/memorial-tribute",
+  "family": "slideshow",
+  "genre": "memorial-tribute",
+  "label": "Memorial Tribute",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "16:9",
+    "fps": 30,
+    "cutFrames": [
+      60,
+      120
+    ],
+    "duration": [
+      60,
+      180
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.emotional-01"
+    ],
+    "texture": [
+      "texture.paper.fiber-01"
+    ],
+    "image": [
+      "image.paper.card-01"
+    ],
+    "ambience": [
+      "sfx.heartbeat-01"
+    ]
+  },
+  "missing": [
+    "foto arsip"
+  ]
+}

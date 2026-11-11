@@ -1,0 +1,29 @@
+{
+  "id": "meme/soundboard-edit",
+  "family": "meme",
+  "genre": "soundboard-edit",
+  "label": "Soundboard Edit",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      4,
+      10
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "ui": [
+      "sfx.coin.reward-01",
+      "sfx.swipe.ui-01",
+      "sfx.pop.notify-01"
+    ]
+  },
+  "missing": [
+    "soundboard pack"
+  ]
+}

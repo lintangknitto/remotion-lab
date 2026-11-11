@@ -1,0 +1,17 @@
+node_modules/
+out/
+tmp/
+.cache/
+.npm-cache/
+.DS_Store
+
+# aset brand hasil `npm run capture`: LOKAL saja (foto/logo milik pihak lain; buat ulang dengan npm run brand:knitto)
+public/brand/
+# staging bake anotasi QA
+public/qa/
+
+# pengaturan agen pribadi
+.claude/settings.local.json
+
+# log Chrome yang bisa muncul di root saat uji browser
+debug.log

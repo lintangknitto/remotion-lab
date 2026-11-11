@@ -1,0 +1,31 @@
+{
+  "id": "sports/fitness-progress",
+  "family": "sports",
+  "genre": "fitness-progress",
+  "label": "Fitness Progress",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      4,
+      10
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.remix.punchy-01"
+    ],
+    "ui": [
+      "sfx.click.ui-01"
+    ]
+  },
+  "missing": [
+    "footage latihan",
+    "timer component"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "remotion-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Learning Remotion: React-driven video",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render src/index.ts LaunchVideo out/launch.mp4",
+    "still": "remotion still src/index.ts Poster out/poster.png",
+    "typecheck": "tsc --noEmit",
+    "assets": "python scripts/assets/generate.py",
+    "scan": "node scripts/scan-library.mjs",
+    "packs": "node scripts/gen-packs.mjs",
+    "check": "node scripts/check-packs.mjs --all",
+    "clean": "node scripts/clean-tmp.mjs",
+    "check:style": "node scripts/check-style.mjs",
+    "capture": "node scripts/capture-site.mjs",
+    "record": "node scripts/record.mjs",
+    "annotate": "node scripts/annotate.mjs",
+    "proof": "remotion render src/index.ts StudioProof out/studio-proof.mp4",
+    "proof:still": "remotion still src/index.ts StudioProof out/studio-proof.png --frame=45",
+    "caption": "remotion render src/index.ts CaptionDemo out/caption-demo.mp4",
+    "caption:still": "remotion still src/index.ts CaptionDemo out/caption-demo.png --frame=52",
+    "clip": "remotion render src/index.ts PodcastClip out/podcast-clip.mp4",
+    "clip:still": "remotion still src/index.ts PodcastClip out/podcast-clip.png --frame=130",
+    "vo": "powershell -ExecutionPolicy Bypass -File scripts/assets/make_vo.ps1 && python scripts/assets/polish_wav.py && python scripts/assets/make_waveform.py",
+    "transcribe": "python scripts/transcribe.py",
+    "clip:build": "node scripts/clip.mjs",
+    "pick": "node scripts/pick-clips.mjs",
+    "glossary": "node scripts/glossary.mjs",
+    "frame": "node scripts/frame.mjs",
+    "skills:sync": "node scripts/sync-skills.mjs",
+    "skills:check": "node scripts/sync-skills.mjs --check",
+    "brand:knitto": "node scripts/capture-site.mjs --url https://knitto.co.id --name knitto"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.542",
+    "@remotion/fonts": "4.0.542",
+    "@remotion/media": "^4.0.542",
+    "@remotion/media-utils": "^4.0.542",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.542"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.0",
+    "@types/react-dom": "19.1.0",
+    "playwright": "^1.65.0",
+    "typescript": "5.8.3"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "qa/design-review",
+  "family": "qa",
+  "genre": "design-review",
+  "label": "Design Review",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "16:9",
+    "fps": 30,
+    "cutFrames": [
+      60,
+      180
+    ],
+    "duration": [
+      20,
+      120
+    ]
+  },
+  "slots": {},
+  "missing": [
+    "screenshot desain dan implementasi",
+    "komponen redline lengkap (jarak, ukuran font)"
+  ]
+}

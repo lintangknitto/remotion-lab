@@ -1,0 +1,28 @@
+{
+  "id": "amv/amv",
+  "family": "amv",
+  "genre": "amv",
+  "label": "AMV",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "16:9",
+    "fps": 30,
+    "cutFrames": [
+      20,
+      60
+    ],
+    "duration": [
+      30,
+      90
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.uplift-01"
+    ],
+    "clip": []
+  },
+  "missing": [
+    "klip anime (lisensi paling berisiko — catat sumber per file)"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "clipping/_shared",
+  "family": "clipping",
+  "label": "Clipping (shared)",
+  "slots": {
+    "ui": [
+      "sfx.click.ui-02"
+    ],
+    "whoosh": [
+      "sfx.swoosh.card-01"
+    ],
+    "caption": [
+      "image.caption.pill-01",
+      "image.caption.box-01",
+      "image.caption.underline-01"
+    ],
+    "vo": [
+      "vo.podcast.demo-01"
+    ]
+  }
+}

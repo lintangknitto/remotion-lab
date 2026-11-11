@@ -1,0 +1,30 @@
+{
+  "id": "greeting/natal-tahun-baru",
+  "family": "greeting",
+  "genre": "natal-tahun-baru",
+  "label": "Natal & Tahun Baru",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      40,
+      90
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.uplift-01"
+    ],
+    "image": [
+      "image.bokeh.party-01"
+    ]
+  },
+  "missing": [
+    "ornamen salju/pohon"
+  ]
+}

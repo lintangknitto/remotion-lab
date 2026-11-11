@@ -1,0 +1,28 @@
+{
+  "id": "corporate/testimonial",
+  "family": "corporate",
+  "genre": "testimonial",
+  "label": "Testimonial",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "16:9",
+    "fps": 30,
+    "cutFrames": [
+      20,
+      60
+    ],
+    "duration": [
+      30,
+      90
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.emotional-01"
+    ]
+  },
+  "missing": [
+    "footage interview",
+    "subtitle pack"
+  ]
+}

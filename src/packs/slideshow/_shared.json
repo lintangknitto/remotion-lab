@@ -1,0 +1,22 @@
+{
+  "id": "slideshow/_shared",
+  "family": "slideshow",
+  "label": "Slideshow (shared)",
+  "slots": {
+    "whoosh": [
+      "sfx.swoosh.card-01"
+    ],
+    "texture": [
+      "texture.paper.fiber-01"
+    ],
+    "overlay": [
+      "texture.vignette.soft-01"
+    ],
+    "ui": [
+      "sfx.click.ui-01"
+    ],
+    "impact": [
+      "sfx.impact.soft-01"
+    ]
+  }
+}

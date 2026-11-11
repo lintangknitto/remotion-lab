@@ -1,0 +1,31 @@
+{
+  "id": "talking-head/talking-head",
+  "family": "talking-head",
+  "genre": "talking-head",
+  "label": "Talking Head",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      4,
+      10
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.corporate-01"
+    ],
+    "overlay": [
+      "texture.vignette.soft-01"
+    ]
+  },
+  "missing": [
+    "footage talent",
+    "caption pack"
+  ]
+}

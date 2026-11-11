@@ -1,0 +1,32 @@
+{
+  "id": "corporate/company-profile",
+  "family": "corporate",
+  "genre": "company-profile",
+  "label": "Company Profile",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "16:9",
+    "fps": 30,
+    "cutFrames": [
+      60,
+      180
+    ],
+    "duration": [
+      60,
+      150
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.corporate-01"
+    ],
+    "image": [
+      "image.gradient.mesh-01"
+    ]
+  },
+  "missing": [
+    "logo board",
+    "lower third",
+    "footage kantor"
+  ]
+}

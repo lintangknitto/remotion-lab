@@ -1,0 +1,27 @@
+{
+  "id": "qa/test-run-recap",
+  "family": "qa",
+  "genre": "test-run-recap",
+  "label": "Test Run Recap",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "16:9",
+    "fps": 30,
+    "cutFrames": [
+      45,
+      120
+    ],
+    "duration": [
+      10,
+      45
+    ]
+  },
+  "slots": {
+    "ui": [
+      "sfx.coin.reward-01"
+    ]
+  },
+  "missing": [
+    "hasil uji (JSON) untuk TestMatrix"
+  ]
+}

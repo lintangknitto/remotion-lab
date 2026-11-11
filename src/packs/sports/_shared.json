@@ -1,0 +1,22 @@
+{
+  "id": "sports/_shared",
+  "family": "sports",
+  "label": "Sports (shared)",
+  "slots": {
+    "impact": [
+      "sfx.impact.soft-01"
+    ],
+    "whoosh": [
+      "sfx.whoosh.fast-01"
+    ],
+    "ui": [
+      "sfx.click.ui-01"
+    ],
+    "overlay": [
+      "image.lightleak.warm-01"
+    ],
+    "texture": [
+      "texture.noise.film-4k"
+    ]
+  }
+}

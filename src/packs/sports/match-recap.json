@@ -1,0 +1,31 @@
+{
+  "id": "sports/match-recap",
+  "family": "sports",
+  "genre": "match-recap",
+  "label": "Match Recap",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "16:9",
+    "fps": 30,
+    "cutFrames": [
+      20,
+      60
+    ],
+    "duration": [
+      30,
+      90
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.tension-01"
+    ],
+    "image": [
+      "image.gradient.dark-01"
+    ]
+  },
+  "missing": [
+    "footage match",
+    "stat card"
+  ]
+}

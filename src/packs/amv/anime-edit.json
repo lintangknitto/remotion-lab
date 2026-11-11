@@ -1,0 +1,28 @@
+{
+  "id": "amv/anime-edit",
+  "family": "amv",
+  "genre": "anime-edit",
+  "label": "Anime Edit",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      4,
+      10
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.emotional-01"
+    ],
+    "clip": []
+  },
+  "missing": [
+    "klip anime vertikal"
+  ]
+}

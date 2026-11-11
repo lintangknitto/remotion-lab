@@ -1,0 +1,30 @@
+{
+  "id": "cinematic/music-video",
+  "family": "cinematic",
+  "genre": "music-video",
+  "label": "Music Video",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "16:9",
+    "fps": 24,
+    "cutFrames": [
+      12,
+      48
+    ],
+    "duration": [
+      120,
+      240
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.remix.punchy-01"
+    ],
+    "impact": [
+      "sfx.impact.heavy-02"
+    ]
+  },
+  "missing": [
+    "lagu + footage"
+  ]
+}

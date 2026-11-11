@@ -1,0 +1,21 @@
+{
+  "id": "amv/_shared",
+  "family": "amv",
+  "label": "AMV / Anime Edit (shared)",
+  "slots": {
+    "overlay": [
+      "image.flare.anamorphic-01",
+      "texture.bokeh.soft-01"
+    ],
+    "texture": [
+      "texture.noise.film-4k"
+    ],
+    "whoosh": [
+      "sfx.whoosh.fast-01",
+      "sfx.whoosh.slow-01"
+    ],
+    "impact": [
+      "sfx.impact.metal-01"
+    ]
+  }
+}

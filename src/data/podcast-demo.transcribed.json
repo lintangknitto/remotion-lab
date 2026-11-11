@@ -1,0 +1,179 @@
+{
+  "text": "Okay. Here is the thing about clipping. You do not need a fancy editor. You need a transcript, one strong look, and a caption style that matches the beat. That is the whole workflow.",
+  "durationMs": 15297,
+  "language": "en",
+  "languageProbability": 1.0,
+  "model": "tiny.en",
+  "words": [
+    {
+      "text": "Okay.",
+      "startMs": 0,
+      "endMs": 540
+    },
+    {
+      "text": "Here",
+      "startMs": 1080,
+      "endMs": 1320
+    },
+    {
+      "text": "is",
+      "startMs": 1320,
+      "endMs": 1540
+    },
+    {
+      "text": "the",
+      "startMs": 1540,
+      "endMs": 1720
+    },
+    {
+      "text": "thing",
+      "startMs": 1720,
+      "endMs": 1900
+    },
+    {
+      "text": "about",
+      "startMs": 1900,
+      "endMs": 2280
+    },
+    {
+      "text": "clipping.",
+      "startMs": 2280,
+      "endMs": 2760
+    },
+    {
+      "text": "You",
+      "startMs": 3780,
+      "endMs": 3900
+    },
+    {
+      "text": "do",
+      "startMs": 3900,
+      "endMs": 4100
+    },
+    {
+      "text": "not",
+      "startMs": 4100,
+      "endMs": 4300
+    },
+    {
+      "text": "need",
+      "startMs": 4300,
+      "endMs": 4580
+    },
+    {
+      "text": "a",
+      "startMs": 4580,
+      "endMs": 4720
+    },
+    {
+      "text": "fancy",
+      "startMs": 4720,
+      "endMs": 5080
+    },
+    {
+      "text": "editor.",
+      "startMs": 5080,
+      "endMs": 5640
+    },
+    {
+      "text": "You",
+      "startMs": 6540,
+      "endMs": 6660
+    },
+    {
+      "text": "need",
+      "startMs": 6660,
+      "endMs": 6900
+    },
+    {
+      "text": "a",
+      "startMs": 6900,
+      "endMs": 7120
+    },
+    {
+      "text": "transcript,",
+      "startMs": 7120,
+      "endMs": 7660
+    },
+    {
+      "text": "one",
+      "startMs": 8320,
+      "endMs": 8600
+    },
+    {
+      "text": "strong",
+      "startMs": 8600,
+      "endMs": 8960
+    },
+    {
+      "text": "look,",
+      "startMs": 8960,
+      "endMs": 9360
+    },
+    {
+      "text": "and",
+      "startMs": 9740,
+      "endMs": 9980
+    },
+    {
+      "text": "a",
+      "startMs": 9980,
+      "endMs": 10120
+    },
+    {
+      "text": "caption",
+      "startMs": 10120,
+      "endMs": 10380
+    },
+    {
+      "text": "style",
+      "startMs": 10380,
+      "endMs": 10920
+    },
+    {
+      "text": "that",
+      "startMs": 10920,
+      "endMs": 11140
+    },
+    {
+      "text": "matches",
+      "startMs": 11140,
+      "endMs": 11460
+    },
+    {
+      "text": "the",
+      "startMs": 11460,
+      "endMs": 11800
+    },
+    {
+      "text": "beat.",
+      "startMs": 11800,
+      "endMs": 12220
+    },
+    {
+      "text": "That",
+      "startMs": 13000,
+      "endMs": 13260
+    },
+    {
+      "text": "is",
+      "startMs": 13260,
+      "endMs": 13520
+    },
+    {
+      "text": "the",
+      "startMs": 13520,
+      "endMs": 13660
+    },
+    {
+      "text": "whole",
+      "startMs": 13660,
+      "endMs": 13900
+    },
+    {
+      "text": "workflow.",
+      "startMs": 13900,
+      "endMs": 14300
+    }
+  ]
+}

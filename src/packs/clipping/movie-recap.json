@@ -1,0 +1,34 @@
+{
+  "id": "clipping/movie-recap",
+  "family": "clipping",
+  "genre": "movie-recap",
+  "label": "Movie Recap",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      4,
+      10
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.tension-01"
+    ],
+    "impact": [
+      "sfx.boom.cinematic-01"
+    ],
+    "texture": [
+      "texture.noise.film-4k"
+    ]
+  },
+  "missing": [
+    "klip film",
+    "spoiler warning card"
+  ]
+}

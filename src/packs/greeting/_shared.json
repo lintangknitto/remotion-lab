@@ -1,0 +1,22 @@
+{
+  "id": "greeting/_shared",
+  "family": "greeting",
+  "label": "Greeting & Seasonal (shared)",
+  "slots": {
+    "whoosh": [
+      "sfx.swoosh.card-01"
+    ],
+    "image": [
+      "image.confetti.burst-01"
+    ],
+    "overlay": [
+      "texture.vignette.soft-01"
+    ],
+    "texture": [
+      "texture.paper.fiber-01"
+    ],
+    "ui": [
+      "sfx.click.ui-01"
+    ]
+  }
+}

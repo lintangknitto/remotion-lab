@@ -1,0 +1,31 @@
+{
+  "id": "motion-graphic/data-viz",
+  "family": "motion-graphic",
+  "genre": "data-viz",
+  "label": "Data Viz",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "16:9",
+    "fps": 30,
+    "cutFrames": [
+      20,
+      60
+    ],
+    "duration": [
+      30,
+      90
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.corporate-01"
+    ],
+    "texture": [
+      "texture.grid.blueprint-01"
+    ]
+  },
+  "missing": [
+    "dataset",
+    "chart component"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "ai-generated/ai-broll",
+  "family": "ai-generated",
+  "genre": "ai-broll",
+  "label": "AI B-Roll",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "16:9",
+    "fps": 30,
+    "cutFrames": [
+      20,
+      60
+    ],
+    "duration": [
+      30,
+      90
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.tension-01"
+    ],
+    "background": [
+      "image.gradient.mesh-01"
+    ]
+  },
+  "missing": [
+    "klip AI"
+  ]
+}

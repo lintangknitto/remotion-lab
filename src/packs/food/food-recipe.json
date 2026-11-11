@@ -1,0 +1,27 @@
+{
+  "id": "food/food-recipe",
+  "family": "food",
+  "genre": "food-recipe",
+  "label": "Food Recipe",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      20,
+      45
+    ],
+    "duration": [
+      30,
+      90
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.lofi-01"
+    ]
+  },
+  "missing": [
+    "footage masak + makro"
+  ]
+}

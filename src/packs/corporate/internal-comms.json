@@ -1,0 +1,30 @@
+{
+  "id": "corporate/internal-comms",
+  "family": "corporate",
+  "genre": "internal-comms",
+  "label": "Internal Comms",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "16:9",
+    "fps": 30,
+    "cutFrames": [
+      20,
+      60
+    ],
+    "duration": [
+      30,
+      90
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.corporate-01"
+    ],
+    "ui": [
+      "sfx.click.ui-01"
+    ]
+  },
+  "missing": [
+    "slide / deck"
+  ]
+}

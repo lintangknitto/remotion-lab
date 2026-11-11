@@ -1,0 +1,669 @@
+{
+  "text": "OK. Let's talk about clipping. Everyone thinks you need a fancy editor, but that is not true. The thing that actually matters is the look. If the first three seconds are boring, nothing else saves you. Here is what works. Start with the most surprising sentence in the whole episode. Cut everything before it. Then add captions, because most people watch with the sound off. A good caption is not a transcript, it is a rhythm. 3 or 4 words at a time, matching the beat of the voice. And one more thing. Do not clip the ending. And on the punchline, then stop. No outro, no subscribe reminder, no dead air. If you do those three things, your clips will beat clips made with better cameras. That is the whole workflow.",
+  "durationMs": 60551,
+  "language": "en",
+  "languageProbability": 1.0,
+  "model": "tiny.en",
+  "words": [
+    {
+      "text": "OK.",
+      "startMs": 0,
+      "endMs": 540
+    },
+    {
+      "text": "Let's",
+      "startMs": 960,
+      "endMs": 1420
+    },
+    {
+      "text": "talk",
+      "startMs": 1420,
+      "endMs": 1700
+    },
+    {
+      "text": "about",
+      "startMs": 1700,
+      "endMs": 2120
+    },
+    {
+      "text": "clipping.",
+      "startMs": 2120,
+      "endMs": 2660
+    },
+    {
+      "text": "Everyone",
+      "startMs": 3600,
+      "endMs": 3900
+    },
+    {
+      "text": "thinks",
+      "startMs": 3900,
+      "endMs": 4340
+    },
+    {
+      "text": "you",
+      "startMs": 4340,
+      "endMs": 4500
+    },
+    {
+      "text": "need",
+      "startMs": 4500,
+      "endMs": 4760
+    },
+    {
+      "text": "a",
+      "startMs": 4760,
+      "endMs": 4900
+    },
+    {
+      "text": "fancy",
+      "startMs": 4900,
+      "endMs": 5300
+    },
+    {
+      "text": "editor,",
+      "startMs": 5300,
+      "endMs": 5700
+    },
+    {
+      "text": "but",
+      "startMs": 6140,
+      "endMs": 6420
+    },
+    {
+      "text": "that",
+      "startMs": 6420,
+      "endMs": 6620
+    },
+    {
+      "text": "is",
+      "startMs": 6620,
+      "endMs": 6800
+    },
+    {
+      "text": "not",
+      "startMs": 6800,
+      "endMs": 7080
+    },
+    {
+      "text": "true.",
+      "startMs": 7080,
+      "endMs": 7560
+    },
+    {
+      "text": "The",
+      "startMs": 8340,
+      "endMs": 8540
+    },
+    {
+      "text": "thing",
+      "startMs": 8540,
+      "endMs": 8760
+    },
+    {
+      "text": "that",
+      "startMs": 8760,
+      "endMs": 9140
+    },
+    {
+      "text": "actually",
+      "startMs": 9140,
+      "endMs": 9540
+    },
+    {
+      "text": "matters",
+      "startMs": 9540,
+      "endMs": 9780
+    },
+    {
+      "text": "is",
+      "startMs": 9780,
+      "endMs": 10160
+    },
+    {
+      "text": "the",
+      "startMs": 10160,
+      "endMs": 10320
+    },
+    {
+      "text": "look.",
+      "startMs": 10320,
+      "endMs": 10800
+    },
+    {
+      "text": "If",
+      "startMs": 11520,
+      "endMs": 11800
+    },
+    {
+      "text": "the",
+      "startMs": 11800,
+      "endMs": 12000
+    },
+    {
+      "text": "first",
+      "startMs": 12000,
+      "endMs": 12360
+    },
+    {
+      "text": "three",
+      "startMs": 12360,
+      "endMs": 12640
+    },
+    {
+      "text": "seconds",
+      "startMs": 12640,
+      "endMs": 12960
+    },
+    {
+      "text": "are",
+      "startMs": 12960,
+      "endMs": 13300
+    },
+    {
+      "text": "boring,",
+      "startMs": 13300,
+      "endMs": 13700
+    },
+    {
+      "text": "nothing",
+      "startMs": 14140,
+      "endMs": 14440
+    },
+    {
+      "text": "else",
+      "startMs": 14440,
+      "endMs": 14860
+    },
+    {
+      "text": "saves",
+      "startMs": 14860,
+      "endMs": 15100
+    },
+    {
+      "text": "you.",
+      "startMs": 15100,
+      "endMs": 15900
+    },
+    {
+      "text": "Here",
+      "startMs": 16380,
+      "endMs": 16680
+    },
+    {
+      "text": "is",
+      "startMs": 16680,
+      "endMs": 16880
+    },
+    {
+      "text": "what",
+      "startMs": 16880,
+      "endMs": 17100
+    },
+    {
+      "text": "works.",
+      "startMs": 17100,
+      "endMs": 17740
+    },
+    {
+      "text": "Start",
+      "startMs": 18620,
+      "endMs": 18940
+    },
+    {
+      "text": "with",
+      "startMs": 18940,
+      "endMs": 19240
+    },
+    {
+      "text": "the",
+      "startMs": 19240,
+      "endMs": 19380
+    },
+    {
+      "text": "most",
+      "startMs": 19380,
+      "endMs": 19680
+    },
+    {
+      "text": "surprising",
+      "startMs": 19680,
+      "endMs": 20240
+    },
+    {
+      "text": "sentence",
+      "startMs": 20240,
+      "endMs": 20740
+    },
+    {
+      "text": "in",
+      "startMs": 20740,
+      "endMs": 21040
+    },
+    {
+      "text": "the",
+      "startMs": 21040,
+      "endMs": 21200
+    },
+    {
+      "text": "whole",
+      "startMs": 21200,
+      "endMs": 21440
+    },
+    {
+      "text": "episode.",
+      "startMs": 21440,
+      "endMs": 22020
+    },
+    {
+      "text": "Cut",
+      "startMs": 22980,
+      "endMs": 23240
+    },
+    {
+      "text": "everything",
+      "startMs": 23240,
+      "endMs": 23660
+    },
+    {
+      "text": "before",
+      "startMs": 23660,
+      "endMs": 24100
+    },
+    {
+      "text": "it.",
+      "startMs": 24100,
+      "endMs": 25020
+    },
+    {
+      "text": "Then",
+      "startMs": 25320,
+      "endMs": 25620
+    },
+    {
+      "text": "add",
+      "startMs": 25620,
+      "endMs": 25900
+    },
+    {
+      "text": "captions,",
+      "startMs": 25900,
+      "endMs": 26580
+    },
+    {
+      "text": "because",
+      "startMs": 26960,
+      "endMs": 27360
+    },
+    {
+      "text": "most",
+      "startMs": 27360,
+      "endMs": 27720
+    },
+    {
+      "text": "people",
+      "startMs": 27720,
+      "endMs": 28060
+    },
+    {
+      "text": "watch",
+      "startMs": 28060,
+      "endMs": 28360
+    },
+    {
+      "text": "with",
+      "startMs": 28360,
+      "endMs": 28620
+    },
+    {
+      "text": "the",
+      "startMs": 28620,
+      "endMs": 28860
+    },
+    {
+      "text": "sound",
+      "startMs": 28860,
+      "endMs": 29120
+    },
+    {
+      "text": "off.",
+      "startMs": 29120,
+      "endMs": 30100
+    },
+    {
+      "text": "A",
+      "startMs": 30100,
+      "endMs": 30520
+    },
+    {
+      "text": "good",
+      "startMs": 30520,
+      "endMs": 30840
+    },
+    {
+      "text": "caption",
+      "startMs": 30840,
+      "endMs": 31160
+    },
+    {
+      "text": "is",
+      "startMs": 31160,
+      "endMs": 31440
+    },
+    {
+      "text": "not",
+      "startMs": 31440,
+      "endMs": 31700
+    },
+    {
+      "text": "a",
+      "startMs": 31700,
+      "endMs": 31920
+    },
+    {
+      "text": "transcript,",
+      "startMs": 31920,
+      "endMs": 32480
+    },
+    {
+      "text": "it",
+      "startMs": 32960,
+      "endMs": 33180
+    },
+    {
+      "text": "is",
+      "startMs": 33180,
+      "endMs": 33440
+    },
+    {
+      "text": "a",
+      "startMs": 33440,
+      "endMs": 33520
+    },
+    {
+      "text": "rhythm.",
+      "startMs": 33500,
+      "endMs": 34000
+    },
+    {
+      "text": "3",
+      "startMs": 34820,
+      "endMs": 35180
+    },
+    {
+      "text": "or",
+      "startMs": 35180,
+      "endMs": 35360
+    },
+    {
+      "text": "4",
+      "startMs": 35360,
+      "endMs": 35680
+    },
+    {
+      "text": "words",
+      "startMs": 35680,
+      "endMs": 35960
+    },
+    {
+      "text": "at",
+      "startMs": 35960,
+      "endMs": 36180
+    },
+    {
+      "text": "a",
+      "startMs": 36180,
+      "endMs": 36400
+    },
+    {
+      "text": "time,",
+      "startMs": 36400,
+      "endMs": 36840
+    },
+    {
+      "text": "matching",
+      "startMs": 37140,
+      "endMs": 37480
+    },
+    {
+      "text": "the",
+      "startMs": 37480,
+      "endMs": 37780
+    },
+    {
+      "text": "beat",
+      "startMs": 37780,
+      "endMs": 37960
+    },
+    {
+      "text": "of",
+      "startMs": 37960,
+      "endMs": 38120
+    },
+    {
+      "text": "the",
+      "startMs": 38120,
+      "endMs": 38320
+    },
+    {
+      "text": "voice.",
+      "startMs": 38320,
+      "endMs": 38800
+    },
+    {
+      "text": "And",
+      "startMs": 39580,
+      "endMs": 39840
+    },
+    {
+      "text": "one",
+      "startMs": 39840,
+      "endMs": 40060
+    },
+    {
+      "text": "more",
+      "startMs": 40060,
+      "endMs": 40340
+    },
+    {
+      "text": "thing.",
+      "startMs": 40340,
+      "endMs": 40760
+    },
+    {
+      "text": "Do",
+      "startMs": 41680,
+      "endMs": 41860
+    },
+    {
+      "text": "not",
+      "startMs": 41860,
+      "endMs": 42180
+    },
+    {
+      "text": "clip",
+      "startMs": 42180,
+      "endMs": 42380
+    },
+    {
+      "text": "the",
+      "startMs": 42380,
+      "endMs": 42640
+    },
+    {
+      "text": "ending.",
+      "startMs": 42640,
+      "endMs": 43120
+    },
+    {
+      "text": "And",
+      "startMs": 43920,
+      "endMs": 44220
+    },
+    {
+      "text": "on",
+      "startMs": 44220,
+      "endMs": 44400
+    },
+    {
+      "text": "the",
+      "startMs": 44400,
+      "endMs": 44580
+    },
+    {
+      "text": "punchline,",
+      "startMs": 44580,
+      "endMs": 45320
+    },
+    {
+      "text": "then",
+      "startMs": 45660,
+      "endMs": 45980
+    },
+    {
+      "text": "stop.",
+      "startMs": 45980,
+      "endMs": 46520
+    },
+    {
+      "text": "No",
+      "startMs": 47340,
+      "endMs": 47640
+    },
+    {
+      "text": "outro,",
+      "startMs": 47640,
+      "endMs": 48240
+    },
+    {
+      "text": "no",
+      "startMs": 48660,
+      "endMs": 48960
+    },
+    {
+      "text": "subscribe",
+      "startMs": 48960,
+      "endMs": 49500
+    },
+    {
+      "text": "reminder,",
+      "startMs": 49500,
+      "endMs": 50000
+    },
+    {
+      "text": "no",
+      "startMs": 50540,
+      "endMs": 50840
+    },
+    {
+      "text": "dead",
+      "startMs": 50840,
+      "endMs": 51120
+    },
+    {
+      "text": "air.",
+      "startMs": 51120,
+      "endMs": 51520
+    },
+    {
+      "text": "If",
+      "startMs": 52280,
+      "endMs": 52560
+    },
+    {
+      "text": "you",
+      "startMs": 52560,
+      "endMs": 52740
+    },
+    {
+      "text": "do",
+      "startMs": 52740,
+      "endMs": 52920
+    },
+    {
+      "text": "those",
+      "startMs": 52920,
+      "endMs": 53240
+    },
+    {
+      "text": "three",
+      "startMs": 53240,
+      "endMs": 53580
+    },
+    {
+      "text": "things,",
+      "startMs": 53580,
+      "endMs": 54120
+    },
+    {
+      "text": "your",
+      "startMs": 54120,
+      "endMs": 54780
+    },
+    {
+      "text": "clips",
+      "startMs": 54780,
+      "endMs": 55020
+    },
+    {
+      "text": "will",
+      "startMs": 55020,
+      "endMs": 55280
+    },
+    {
+      "text": "beat",
+      "startMs": 55280,
+      "endMs": 55580
+    },
+    {
+      "text": "clips",
+      "startMs": 55580,
+      "endMs": 55840
+    },
+    {
+      "text": "made",
+      "startMs": 55840,
+      "endMs": 56100
+    },
+    {
+      "text": "with",
+      "startMs": 56100,
+      "endMs": 56420
+    },
+    {
+      "text": "better",
+      "startMs": 56420,
+      "endMs": 56660
+    },
+    {
+      "text": "cameras.",
+      "startMs": 56660,
+      "endMs": 57200
+    },
+    {
+      "text": "That",
+      "startMs": 58300,
+      "endMs": 58520
+    },
+    {
+      "text": "is",
+      "startMs": 58520,
+      "endMs": 58720
+    },
+    {
+      "text": "the",
+      "startMs": 58720,
+      "endMs": 58900
+    },
+    {
+      "text": "whole",
+      "startMs": 58900,
+      "endMs": 59140
+    },
+    {
+      "text": "workflow.",
+      "startMs": 59140,
+      "endMs": 59580
+    }
+  ]
+}

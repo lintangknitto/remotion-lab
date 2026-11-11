@@ -1,0 +1,30 @@
+{
+  "id": "food/food-promo",
+  "family": "food",
+  "genre": "food-promo",
+  "label": "Food Promo",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      4,
+      10
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.uplift-01"
+    ],
+    "impact": [
+      "sfx.impact.soft-01"
+    ]
+  },
+  "missing": [
+    "footage produk"
+  ]
+}

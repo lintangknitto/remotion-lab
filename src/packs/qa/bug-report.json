@@ -1,0 +1,27 @@
+{
+  "id": "qa/bug-report",
+  "family": "qa",
+  "genre": "bug-report",
+  "label": "Bug Report",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "16:9",
+    "fps": 30,
+    "cutFrames": [
+      30,
+      120
+    ],
+    "duration": [
+      10,
+      60
+    ]
+  },
+  "slots": {
+    "ui": [
+      "sfx.click.ui-02"
+    ]
+  },
+  "missing": [
+    "rekaman halaman (npm run record)"
+  ]
+}

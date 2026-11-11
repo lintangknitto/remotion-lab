@@ -1,0 +1,31 @@
+{
+  "id": "talking-head/greenscreen-explainer",
+  "family": "talking-head",
+  "genre": "greenscreen-explainer",
+  "label": "Green Screen Explainer",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      4,
+      10
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "ui": [
+      "sfx.click.ui-01"
+    ],
+    "image": [
+      "image.paper.card-01"
+    ]
+  },
+  "missing": [
+    "greenscreen footage",
+    "screenshot"
+  ]
+}

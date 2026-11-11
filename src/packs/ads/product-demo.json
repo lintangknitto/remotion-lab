@@ -1,0 +1,30 @@
+{
+  "id": "ads/product-demo",
+  "family": "ads",
+  "genre": "product-demo",
+  "label": "Product Demo",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      15,
+      30
+    ],
+    "duration": [
+      15,
+      45
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.corporate-01"
+    ],
+    "ui": [
+      "sfx.click.ui-02"
+    ]
+  },
+  "missing": [
+    "footage produk"
+  ]
+}

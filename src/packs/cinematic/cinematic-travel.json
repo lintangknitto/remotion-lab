@@ -1,0 +1,31 @@
+{
+  "id": "cinematic/cinematic-travel",
+  "family": "cinematic",
+  "genre": "cinematic-travel",
+  "label": "Cinematic Travel",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "16:9",
+    "fps": 30,
+    "cutFrames": [
+      60,
+      180
+    ],
+    "duration": [
+      60,
+      150
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.emotional-01"
+    ],
+    "image": [
+      "image.lightleak.warm-01"
+    ]
+  },
+  "missing": [
+    "footage perjalanan",
+    "LUT"
+  ]
+}

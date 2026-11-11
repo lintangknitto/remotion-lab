@@ -1,0 +1,154 @@
+{
+  "text": "Oke, jadi ini yang paling penting soal clipping. Kamu tidak perlu editor mahal. Yang kamu butuhkan cuma transcript, satu hook yang kuat, dan gaya caption yang cocok dengan iramanya.",
+  "durationMs": 12168,
+  "language": "id",
+  "languageProbability": 1.0,
+  "model": "small",
+  "words": [
+    {
+      "text": "Oke,",
+      "startMs": 0,
+      "endMs": 480
+    },
+    {
+      "text": "jadi",
+      "startMs": 920,
+      "endMs": 1200
+    },
+    {
+      "text": "ini",
+      "startMs": 1200,
+      "endMs": 1420
+    },
+    {
+      "text": "yang",
+      "startMs": 1420,
+      "endMs": 1520
+    },
+    {
+      "text": "paling",
+      "startMs": 1520,
+      "endMs": 1680
+    },
+    {
+      "text": "penting",
+      "startMs": 1680,
+      "endMs": 2040
+    },
+    {
+      "text": "soal",
+      "startMs": 2040,
+      "endMs": 2300
+    },
+    {
+      "text": "clipping.",
+      "startMs": 2300,
+      "endMs": 2540
+    },
+    {
+      "text": "Kamu",
+      "startMs": 3540,
+      "endMs": 3980
+    },
+    {
+      "text": "tidak",
+      "startMs": 3980,
+      "endMs": 4120
+    },
+    {
+      "text": "perlu",
+      "startMs": 4120,
+      "endMs": 4420
+    },
+    {
+      "text": "editor",
+      "startMs": 4420,
+      "endMs": 4700
+    },
+    {
+      "text": "mahal.",
+      "startMs": 4700,
+      "endMs": 5200
+    },
+    {
+      "text": "Yang",
+      "startMs": 6180,
+      "endMs": 6340
+    },
+    {
+      "text": "kamu",
+      "startMs": 6340,
+      "endMs": 6560
+    },
+    {
+      "text": "butuhkan",
+      "startMs": 6560,
+      "endMs": 6920
+    },
+    {
+      "text": "cuma",
+      "startMs": 6920,
+      "endMs": 7080
+    },
+    {
+      "text": "transcript,",
+      "startMs": 7080,
+      "endMs": 7540
+    },
+    {
+      "text": "satu",
+      "startMs": 8040,
+      "endMs": 8280
+    },
+    {
+      "text": "hook",
+      "startMs": 8280,
+      "endMs": 8480
+    },
+    {
+      "text": "yang",
+      "startMs": 8480,
+      "endMs": 8620
+    },
+    {
+      "text": "kuat,",
+      "startMs": 8620,
+      "endMs": 8940
+    },
+    {
+      "text": "dan",
+      "startMs": 9280,
+      "endMs": 9480
+    },
+    {
+      "text": "gaya",
+      "startMs": 9480,
+      "endMs": 9700
+    },
+    {
+      "text": "caption",
+      "startMs": 9700,
+      "endMs": 9940
+    },
+    {
+      "text": "yang",
+      "startMs": 9940,
+      "endMs": 10160
+    },
+    {
+      "text": "cocok",
+      "startMs": 10160,
+      "endMs": 10520
+    },
+    {
+      "text": "dengan",
+      "startMs": 10520,
+      "endMs": 10680
+    },
+    {
+      "text": "iramanya.",
+      "startMs": 10680,
+      "endMs": 11200
+    }
+  ]
+}

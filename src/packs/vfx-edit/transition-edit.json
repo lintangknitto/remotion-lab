@@ -1,0 +1,29 @@
+{
+  "id": "vfx-edit/transition-edit",
+  "family": "vfx-edit",
+  "genre": "transition-edit",
+  "label": "Transition Edit",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      4,
+      10
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "whoosh": [
+      "sfx.whoosh.fast-01",
+      "sfx.swoosh.card-01"
+    ],
+    "overlay": [
+      "image.lightleak.warm-01"
+    ]
+  },
+  "missing": []
+}

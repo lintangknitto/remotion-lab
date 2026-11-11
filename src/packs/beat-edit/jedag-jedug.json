@@ -1,0 +1,43 @@
+{
+  "id": "beat-edit/jedag-jedug",
+  "family": "beat-edit",
+  "genre": "jedag-jedug",
+  "label": "Jedag Jedug",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      4,
+      10
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.remix.punchy-01"
+    ],
+    "glitch": [
+      "sfx.glitch.digital-01",
+      "sfx.glitch.digital-02"
+    ],
+    "transition": [
+      "sfx.tape.stop-01",
+      "sfx.drop.sub-01"
+    ],
+    "texture": [
+      "texture.vhs.scanline-01",
+      "texture.vhs.tracking-01"
+    ],
+    "overlay": [
+      "image.flare.anamorphic-01"
+    ],
+    "ui": [
+      "sfx.click.ui-01"
+    ]
+  },
+  "missing": []
+}

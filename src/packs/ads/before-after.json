@@ -1,0 +1,33 @@
+{
+  "id": "ads/before-after",
+  "family": "ads",
+  "genre": "before-after",
+  "label": "Before / After",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      4,
+      10
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.uplift-01"
+    ],
+    "impact": [
+      "sfx.impact.soft-01"
+    ],
+    "whoosh": [
+      "sfx.whoosh.fast-01"
+    ]
+  },
+  "missing": [
+    "dua footage/foto"
+  ]
+}

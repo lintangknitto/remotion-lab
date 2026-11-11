@@ -1,0 +1,5081 @@
+{
+  "beat-edit/jedag-jedug": {
+    "id": "beat-edit/jedag-jedug",
+    "family": "beat-edit",
+    "genre": "jedag-jedug",
+    "label": "Jedag Jedug",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "impact": [
+        "sfx.impact.heavy-01",
+        "sfx.impact.heavy-02"
+      ],
+      "whoosh": [
+        "sfx.whoosh.fast-01",
+        "sfx.whoosh.slow-01"
+      ],
+      "texture": [
+        "texture.noise.film-4k",
+        "texture.vhs.scanline-01",
+        "texture.vhs.tracking-01"
+      ],
+      "overlay": [
+        "texture.vignette.soft-01",
+        "image.flare.anamorphic-01"
+      ],
+      "music": [
+        "music.remix.punchy-01"
+      ],
+      "glitch": [
+        "sfx.glitch.digital-01",
+        "sfx.glitch.digital-02"
+      ],
+      "transition": [
+        "sfx.tape.stop-01",
+        "sfx.drop.sub-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ]
+    },
+    "missing": [],
+    "required": [
+      "music",
+      "impact",
+      "texture"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "beat-edit/black-flash": {
+    "id": "beat-edit/black-flash",
+    "family": "beat-edit",
+    "genre": "black-flash",
+    "label": "Black Flash",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        6,
+        12
+      ],
+      "duration": [
+        8,
+        15
+      ]
+    },
+    "slots": {
+      "impact": [
+        "sfx.impact.heavy-01",
+        "sfx.impact.heavy-02",
+        "sfx.impact.metal-01"
+      ],
+      "whoosh": [
+        "sfx.whoosh.fast-01",
+        "sfx.whoosh.slow-01"
+      ],
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "overlay": [
+        "texture.vignette.soft-01"
+      ],
+      "music": [
+        "music.remix.punchy-01"
+      ]
+    },
+    "missing": [],
+    "required": [
+      "music",
+      "impact",
+      "texture"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "beat-edit/velocity-edit": {
+    "id": "beat-edit/velocity-edit",
+    "family": "beat-edit",
+    "genre": "velocity-edit",
+    "label": "Velocity Edit",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        12,
+        40
+      ],
+      "duration": [
+        20,
+        45
+      ]
+    },
+    "slots": {
+      "impact": [
+        "sfx.impact.heavy-01",
+        "sfx.impact.heavy-02"
+      ],
+      "whoosh": [
+        "sfx.whoosh.fast-01",
+        "sfx.whoosh.slow-01"
+      ],
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "overlay": [
+        "texture.vignette.soft-01"
+      ],
+      "music": [
+        "music.bed.uplift-01"
+      ]
+    },
+    "missing": [
+      "clip footage 1080p60 (speed ramp butuh fps tinggi)"
+    ],
+    "required": [
+      "music",
+      "impact",
+      "texture"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "beat-edit/loop-video": {
+    "id": "beat-edit/loop-video",
+    "family": "beat-edit",
+    "genre": "loop-video",
+    "label": "Loop Video",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        0,
+        0
+      ],
+      "duration": [
+        3,
+        8
+      ]
+    },
+    "slots": {
+      "impact": [
+        "sfx.impact.heavy-01",
+        "sfx.impact.heavy-02"
+      ],
+      "whoosh": [
+        "sfx.whoosh.fast-01",
+        "sfx.whoosh.slow-01",
+        "sfx.swoosh.card-01"
+      ],
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "overlay": [
+        "texture.vignette.soft-01"
+      ],
+      "music": [
+        "music.bed.lofi-01"
+      ]
+    },
+    "missing": [
+      "clip pendek yang seamless"
+    ],
+    "required": [
+      "music",
+      "impact",
+      "texture"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "beat-edit/tribute-edit": {
+    "id": "beat-edit/tribute-edit",
+    "family": "beat-edit",
+    "genre": "tribute-edit",
+    "label": "Tribute Edit",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        12,
+        40
+      ],
+      "duration": [
+        20,
+        45
+      ]
+    },
+    "slots": {
+      "impact": [
+        "sfx.impact.heavy-01",
+        "sfx.impact.heavy-02"
+      ],
+      "whoosh": [
+        "sfx.whoosh.fast-01",
+        "sfx.whoosh.slow-01"
+      ],
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "overlay": [
+        "texture.vignette.soft-01"
+      ],
+      "music": [
+        "music.bed.emotional-01"
+      ]
+    },
+    "missing": [
+      "foto/klip subjek"
+    ],
+    "required": [
+      "music",
+      "impact",
+      "texture"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "vfx-edit/fx-edit": {
+    "id": "vfx-edit/fx-edit",
+    "family": "vfx-edit",
+    "genre": "fx-edit",
+    "label": "FX Edit",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "glitch": [
+        "sfx.glitch.digital-01",
+        "sfx.glitch.digital-02"
+      ],
+      "overlay": [
+        "texture.bokeh.soft-01",
+        "image.flare.anamorphic-01"
+      ],
+      "texture": [
+        "texture.noise.digital-01"
+      ],
+      "whoosh": [
+        "sfx.whoosh.fast-01"
+      ],
+      "transition": [
+        "sfx.tape.stop-01"
+      ]
+    },
+    "missing": [
+      "effect preset per klip (mask/clone) — butuh komponen baru"
+    ],
+    "required": [
+      "glitch",
+      "overlay"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "vfx-edit/transition-edit": {
+    "id": "vfx-edit/transition-edit",
+    "family": "vfx-edit",
+    "genre": "transition-edit",
+    "label": "Transition Edit",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "glitch": [
+        "sfx.glitch.digital-01"
+      ],
+      "overlay": [
+        "texture.bokeh.soft-01",
+        "image.flare.anamorphic-01",
+        "image.lightleak.warm-01"
+      ],
+      "texture": [
+        "texture.noise.digital-01"
+      ],
+      "whoosh": [
+        "sfx.whoosh.fast-01",
+        "sfx.swoosh.card-01"
+      ]
+    },
+    "missing": [],
+    "required": [
+      "glitch",
+      "overlay"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "vfx-edit/clone-morph": {
+    "id": "vfx-edit/clone-morph",
+    "family": "vfx-edit",
+    "genre": "clone-morph",
+    "label": "Clone / Morph",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        12,
+        40
+      ],
+      "duration": [
+        20,
+        45
+      ]
+    },
+    "slots": {
+      "glitch": [
+        "sfx.glitch.digital-01"
+      ],
+      "overlay": [
+        "texture.bokeh.soft-01",
+        "image.flare.anamorphic-01"
+      ],
+      "texture": [
+        "texture.noise.digital-01",
+        "texture.dust.scratches-01"
+      ],
+      "whoosh": [
+        "sfx.whoosh.fast-01",
+        "sfx.whoosh.slow-01"
+      ]
+    },
+    "missing": [
+      "footage dua subjek identik"
+    ],
+    "required": [
+      "glitch",
+      "overlay"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "amv/amv": {
+    "id": "amv/amv",
+    "family": "amv",
+    "genre": "amv",
+    "label": "AMV",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 30,
+      "cutFrames": [
+        20,
+        60
+      ],
+      "duration": [
+        30,
+        90
+      ]
+    },
+    "slots": {
+      "overlay": [
+        "image.flare.anamorphic-01",
+        "texture.bokeh.soft-01"
+      ],
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "whoosh": [
+        "sfx.whoosh.fast-01",
+        "sfx.whoosh.slow-01"
+      ],
+      "impact": [
+        "sfx.impact.metal-01"
+      ],
+      "music": [
+        "music.bed.uplift-01"
+      ],
+      "clip": []
+    },
+    "missing": [
+      "klip anime (lisensi paling berisiko — catat sumber per file)"
+    ],
+    "required": [
+      "music",
+      "clip",
+      "overlay"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "amv/anime-edit": {
+    "id": "amv/anime-edit",
+    "family": "amv",
+    "genre": "anime-edit",
+    "label": "Anime Edit",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "overlay": [
+        "image.flare.anamorphic-01",
+        "texture.bokeh.soft-01"
+      ],
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "whoosh": [
+        "sfx.whoosh.fast-01",
+        "sfx.whoosh.slow-01"
+      ],
+      "impact": [
+        "sfx.impact.metal-01"
+      ],
+      "music": [
+        "music.bed.emotional-01"
+      ],
+      "clip": []
+    },
+    "missing": [
+      "klip anime vertikal"
+    ],
+    "required": [
+      "music",
+      "clip",
+      "overlay"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "amv/manga-edit": {
+    "id": "amv/manga-edit",
+    "family": "amv",
+    "genre": "manga-edit",
+    "label": "Manga Edit",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "overlay": [
+        "image.flare.anamorphic-01",
+        "texture.bokeh.soft-01"
+      ],
+      "texture": [
+        "texture.noise.film-4k",
+        "texture.halftone.dots-01"
+      ],
+      "whoosh": [
+        "sfx.whoosh.fast-01",
+        "sfx.whoosh.slow-01"
+      ],
+      "impact": [
+        "sfx.impact.metal-01"
+      ],
+      "music": [
+        "music.bed.tension-01"
+      ],
+      "clip": []
+    },
+    "missing": [
+      "panel manga / scan"
+    ],
+    "required": [
+      "music",
+      "clip",
+      "overlay"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "clipping/podcast-clip": {
+    "id": "clipping/podcast-clip",
+    "family": "clipping",
+    "genre": "podcast-clip",
+    "label": "Podcast Clip",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "ui": [
+        "sfx.click.ui-02"
+      ],
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "caption": [
+        "image.caption.pill-01",
+        "image.caption.box-01",
+        "image.caption.underline-01"
+      ],
+      "vo": [
+        "vo.podcast.demo-01"
+      ],
+      "music": [
+        "music.bed.lofi-01"
+      ],
+      "ambience": [
+        "sfx.static.hiss-01"
+      ]
+    },
+    "missing": [
+      "video panjang + transkrip (whisper)",
+      "caption pack (karaoke)"
+    ],
+    "required": [
+      "caption",
+      "ui"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "clipping/stream-clip": {
+    "id": "clipping/stream-clip",
+    "family": "clipping",
+    "genre": "stream-clip",
+    "label": "Stream Clip",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "ui": [
+        "sfx.click.ui-02"
+      ],
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "caption": [
+        "image.caption.pill-01",
+        "image.caption.box-01",
+        "image.caption.underline-01"
+      ],
+      "vo": [
+        "vo.podcast.demo-01"
+      ],
+      "music": [
+        "music.remix.punchy-01"
+      ],
+      "glitch": [
+        "sfx.glitch.digital-01"
+      ]
+    },
+    "missing": [
+      "VOD stream",
+      "overlay chat / alert"
+    ],
+    "required": [
+      "caption",
+      "ui"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "clipping/youtube-clip": {
+    "id": "clipping/youtube-clip",
+    "family": "clipping",
+    "genre": "youtube-clip",
+    "label": "YouTube Clip",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "ui": [
+        "sfx.click.ui-02"
+      ],
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "caption": [
+        "image.caption.pill-01",
+        "image.caption.box-01",
+        "image.caption.underline-01"
+      ],
+      "vo": [
+        "vo.podcast.demo-01"
+      ],
+      "music": [
+        "music.bed.corporate-01"
+      ]
+    },
+    "missing": [
+      "video panjang",
+      "caption pack"
+    ],
+    "required": [
+      "caption",
+      "ui"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "clipping/movie-recap": {
+    "id": "clipping/movie-recap",
+    "family": "clipping",
+    "genre": "movie-recap",
+    "label": "Movie Recap",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "ui": [
+        "sfx.click.ui-02"
+      ],
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "caption": [
+        "image.caption.pill-01",
+        "image.caption.box-01",
+        "image.caption.underline-01"
+      ],
+      "vo": [
+        "vo.podcast.demo-01"
+      ],
+      "music": [
+        "music.bed.tension-01"
+      ],
+      "impact": [
+        "sfx.boom.cinematic-01"
+      ],
+      "texture": [
+        "texture.noise.film-4k"
+      ]
+    },
+    "missing": [
+      "klip film",
+      "spoiler warning card"
+    ],
+    "required": [
+      "caption",
+      "ui"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "clipping/drama-recap": {
+    "id": "clipping/drama-recap",
+    "family": "clipping",
+    "genre": "drama-recap",
+    "label": "Drama / Series Recap",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "ui": [
+        "sfx.click.ui-02"
+      ],
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "caption": [
+        "image.caption.pill-01",
+        "image.caption.box-01",
+        "image.caption.underline-01"
+      ],
+      "vo": [
+        "vo.podcast.demo-01"
+      ],
+      "music": [
+        "music.bed.tension-01"
+      ],
+      "impact": [
+        "sfx.impact.heavy-01"
+      ]
+    },
+    "missing": [
+      "klip drama",
+      "episode marker"
+    ],
+    "required": [
+      "caption",
+      "ui"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "clipping/sermon-clip": {
+    "id": "clipping/sermon-clip",
+    "family": "clipping",
+    "genre": "sermon-clip",
+    "label": "Sermon / Kajian Clip",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        12,
+        40
+      ],
+      "duration": [
+        20,
+        45
+      ]
+    },
+    "slots": {
+      "ui": [
+        "sfx.click.ui-02"
+      ],
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "caption": [
+        "image.caption.pill-01",
+        "image.caption.box-01",
+        "image.caption.underline-01"
+      ],
+      "vo": [
+        "vo.podcast.demo-01"
+      ],
+      "music": [
+        "music.bed.emotional-01"
+      ],
+      "overlay": [
+        "image.gradient.dark-01"
+      ]
+    },
+    "missing": [
+      "frame ayat / teks arab"
+    ],
+    "required": [
+      "caption",
+      "ui"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "clipping/webinar-clip": {
+    "id": "clipping/webinar-clip",
+    "family": "clipping",
+    "genre": "webinar-clip",
+    "label": "Webinar Clip",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 30,
+      "cutFrames": [
+        20,
+        45
+      ],
+      "duration": [
+        30,
+        90
+      ]
+    },
+    "slots": {
+      "ui": [
+        "sfx.click.ui-02"
+      ],
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "caption": [
+        "image.caption.pill-01",
+        "image.caption.box-01",
+        "image.caption.underline-01"
+      ],
+      "vo": [
+        "vo.podcast.demo-01"
+      ],
+      "music": [
+        "music.bed.corporate-01"
+      ]
+    },
+    "missing": [
+      "rekaman webinar"
+    ],
+    "required": [
+      "caption",
+      "ui"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "talking-head/talking-head": {
+    "id": "talking-head/talking-head",
+    "family": "talking-head",
+    "genre": "talking-head",
+    "label": "Talking Head",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "caption": [
+        "image.caption.pill-01",
+        "image.caption.bubble-01",
+        "image.caption.stroke-01",
+        "image.caption.arrow-01"
+      ],
+      "music": [
+        "music.bed.corporate-01"
+      ],
+      "overlay": [
+        "texture.vignette.soft-01"
+      ]
+    },
+    "missing": [
+      "footage talent",
+      "caption pack"
+    ],
+    "required": [
+      "caption"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "talking-head/ugc": {
+    "id": "talking-head/ugc",
+    "family": "talking-head",
+    "genre": "ugc",
+    "label": "UGC",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "caption": [
+        "image.caption.pill-01",
+        "image.caption.bubble-01",
+        "image.caption.stroke-01",
+        "image.caption.arrow-01"
+      ],
+      "music": [
+        "music.bed.uplift-01"
+      ]
+    },
+    "missing": [
+      "footage creator",
+      "caption pack"
+    ],
+    "required": [
+      "caption"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "talking-head/storytime": {
+    "id": "talking-head/storytime",
+    "family": "talking-head",
+    "genre": "storytime",
+    "label": "Storytime",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        12,
+        40
+      ],
+      "duration": [
+        20,
+        45
+      ]
+    },
+    "slots": {
+      "ui": [
+        "sfx.click.ui-01",
+        "sfx.typewriter.loop-01"
+      ],
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "caption": [
+        "image.caption.pill-01",
+        "image.caption.bubble-01",
+        "image.caption.stroke-01",
+        "image.caption.arrow-01"
+      ],
+      "music": [
+        "music.bed.tension-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ]
+    },
+    "missing": [
+      "VO + b-roll"
+    ],
+    "required": [
+      "caption"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "talking-head/pov-skit": {
+    "id": "talking-head/pov-skit",
+    "family": "talking-head",
+    "genre": "pov-skit",
+    "label": "POV / Skit",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "ui": [
+        "sfx.click.ui-01",
+        "sfx.click.ui-02"
+      ],
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "caption": [
+        "image.caption.pill-01",
+        "image.caption.bubble-01",
+        "image.caption.stroke-01",
+        "image.caption.arrow-01"
+      ],
+      "glitch": [
+        "sfx.glitch.digital-02"
+      ]
+    },
+    "missing": [
+      "footage akting"
+    ],
+    "required": [
+      "caption"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "talking-head/greenscreen-explainer": {
+    "id": "talking-head/greenscreen-explainer",
+    "family": "talking-head",
+    "genre": "greenscreen-explainer",
+    "label": "Green Screen Explainer",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "caption": [
+        "image.caption.pill-01",
+        "image.caption.bubble-01",
+        "image.caption.stroke-01",
+        "image.caption.arrow-01"
+      ],
+      "image": [
+        "image.paper.card-01"
+      ]
+    },
+    "missing": [
+      "greenscreen footage",
+      "screenshot"
+    ],
+    "required": [
+      "caption"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "talking-head/reaction-stitch": {
+    "id": "talking-head/reaction-stitch",
+    "family": "talking-head",
+    "genre": "reaction-stitch",
+    "label": "Reaction / Stitch",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "ui": [
+        "sfx.click.ui-01",
+        "sfx.pop.notify-01"
+      ],
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "caption": [
+        "image.caption.pill-01",
+        "image.caption.bubble-01",
+        "image.caption.stroke-01",
+        "image.caption.arrow-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ]
+    },
+    "missing": [
+      "video reaktan"
+    ],
+    "required": [
+      "caption"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "meme/meme-shitpost": {
+    "id": "meme/meme-shitpost",
+    "family": "meme",
+    "genre": "meme-shitpost",
+    "label": "Meme / Shitpost",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        2,
+        8
+      ],
+      "duration": [
+        5,
+        20
+      ]
+    },
+    "slots": {
+      "ui": [
+        "sfx.pop.notify-01",
+        "sfx.click.ui-01"
+      ],
+      "glitch": [
+        "sfx.glitch.digital-02"
+      ],
+      "impact": [
+        "sfx.impact.soft-01",
+        "sfx.impact.metal-01"
+      ],
+      "whoosh": [
+        "sfx.whoosh.fast-01"
+      ],
+      "music": [
+        "music.remix.punchy-01"
+      ]
+    },
+    "missing": [
+      "meme image / greenscreen"
+    ],
+    "required": [
+      "ui"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "meme/soundboard-edit": {
+    "id": "meme/soundboard-edit",
+    "family": "meme",
+    "genre": "soundboard-edit",
+    "label": "Soundboard Edit",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "ui": [
+        "sfx.pop.notify-01",
+        "sfx.click.ui-01",
+        "sfx.coin.reward-01",
+        "sfx.swipe.ui-01"
+      ],
+      "glitch": [
+        "sfx.glitch.digital-02"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "whoosh": [
+        "sfx.whoosh.fast-01"
+      ]
+    },
+    "missing": [
+      "soundboard pack"
+    ],
+    "required": [
+      "ui"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "motion-graphic/explainer": {
+    "id": "motion-graphic/explainer",
+    "family": "motion-graphic",
+    "genre": "explainer",
+    "label": "Explainer",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 30,
+      "cutFrames": [
+        20,
+        60
+      ],
+      "duration": [
+        30,
+        90
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "background": [
+        "image.gradient.dark-01",
+        "image.gradient.mesh-01"
+      ],
+      "texture": [
+        "texture.grid.blueprint-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "overlay": [
+        "image.flare.anamorphic-01"
+      ],
+      "music": [
+        "music.bed.corporate-01"
+      ]
+    },
+    "missing": [
+      "ikon set",
+      "VO"
+    ],
+    "required": [
+      "music",
+      "ui"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "motion-graphic/kinetic-typography": {
+    "id": "motion-graphic/kinetic-typography",
+    "family": "motion-graphic",
+    "genre": "kinetic-typography",
+    "label": "Kinetic Typography",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "1:1",
+      "fps": 30,
+      "cutFrames": [
+        10,
+        30
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "background": [
+        "image.gradient.dark-01"
+      ],
+      "texture": [
+        "texture.grid.blueprint-01",
+        "texture.halftone.dots-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01",
+        "sfx.impact.heavy-01"
+      ],
+      "overlay": [
+        "image.flare.anamorphic-01"
+      ],
+      "music": [
+        "music.remix.punchy-01"
+      ]
+    },
+    "missing": [
+      "font display",
+      "lirik/teks"
+    ],
+    "required": [
+      "music",
+      "ui"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "motion-graphic/lyric-video": {
+    "id": "motion-graphic/lyric-video",
+    "family": "motion-graphic",
+    "genre": "lyric-video",
+    "label": "Lyric Video",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 30,
+      "cutFrames": [
+        20,
+        60
+      ],
+      "duration": [
+        30,
+        90
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "background": [
+        "image.gradient.dark-01"
+      ],
+      "texture": [
+        "texture.grid.blueprint-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "overlay": [
+        "image.flare.anamorphic-01",
+        "image.lightleak.cool-01"
+      ],
+      "music": [
+        "music.bed.emotional-01"
+      ]
+    },
+    "missing": [
+      "lirik + timing"
+    ],
+    "required": [
+      "music",
+      "ui"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "motion-graphic/data-viz": {
+    "id": "motion-graphic/data-viz",
+    "family": "motion-graphic",
+    "genre": "data-viz",
+    "label": "Data Viz",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 30,
+      "cutFrames": [
+        20,
+        60
+      ],
+      "duration": [
+        30,
+        90
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "background": [
+        "image.gradient.dark-01"
+      ],
+      "texture": [
+        "texture.grid.blueprint-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "overlay": [
+        "image.flare.anamorphic-01"
+      ],
+      "music": [
+        "music.bed.corporate-01"
+      ]
+    },
+    "missing": [
+      "dataset",
+      "chart component"
+    ],
+    "required": [
+      "music",
+      "ui"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "motion-graphic/tutorial": {
+    "id": "motion-graphic/tutorial",
+    "family": "motion-graphic",
+    "genre": "tutorial",
+    "label": "Tutorial",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01",
+        "sfx.click.ui-02"
+      ],
+      "background": [
+        "image.gradient.dark-01"
+      ],
+      "texture": [
+        "texture.grid.blueprint-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "overlay": [
+        "image.flare.anamorphic-01"
+      ],
+      "music": [
+        "music.bed.lofi-01"
+      ]
+    },
+    "missing": [
+      "screen recording"
+    ],
+    "required": [
+      "music",
+      "ui"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "motion-graphic/infographic": {
+    "id": "motion-graphic/infographic",
+    "family": "motion-graphic",
+    "genre": "infographic",
+    "label": "Infographic",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "1:1",
+      "fps": 30,
+      "cutFrames": [
+        10,
+        30
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "background": [
+        "image.gradient.dark-01"
+      ],
+      "texture": [
+        "texture.grid.blueprint-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "overlay": [
+        "image.flare.anamorphic-01"
+      ],
+      "music": [
+        "music.bed.uplift-01"
+      ]
+    },
+    "missing": [
+      "ikon set",
+      "dataset"
+    ],
+    "required": [
+      "music",
+      "ui"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "motion-graphic/wedding-invitation": {
+    "id": "motion-graphic/wedding-invitation",
+    "family": "motion-graphic",
+    "genre": "wedding-invitation",
+    "label": "Wedding Invitation",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        40,
+        90
+      ],
+      "duration": [
+        30,
+        60
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "background": [
+        "image.gradient.dark-01"
+      ],
+      "texture": [
+        "texture.grid.blueprint-01",
+        "texture.paper.fiber-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "overlay": [
+        "image.flare.anamorphic-01"
+      ],
+      "music": [
+        "music.bed.emotional-01"
+      ],
+      "image": [
+        "image.paper.card-01",
+        "image.confetti.burst-01"
+      ]
+    },
+    "missing": [
+      "font script",
+      "ornamen floral",
+      "foto pasangan"
+    ],
+    "required": [
+      "music",
+      "ui"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "corporate/company-profile": {
+    "id": "corporate/company-profile",
+    "family": "corporate",
+    "genre": "company-profile",
+    "label": "Company Profile",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 30,
+      "cutFrames": [
+        60,
+        180
+      ],
+      "duration": [
+        60,
+        150
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "overlay": [
+        "texture.vignette.soft-01"
+      ],
+      "background": [
+        "image.gradient.dark-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "music": [
+        "music.bed.corporate-01"
+      ],
+      "image": [
+        "image.gradient.mesh-01"
+      ]
+    },
+    "missing": [
+      "logo board",
+      "lower third",
+      "footage kantor"
+    ],
+    "required": [
+      "music"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "corporate/testimonial": {
+    "id": "corporate/testimonial",
+    "family": "corporate",
+    "genre": "testimonial",
+    "label": "Testimonial",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 30,
+      "cutFrames": [
+        20,
+        60
+      ],
+      "duration": [
+        30,
+        90
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "overlay": [
+        "texture.vignette.soft-01"
+      ],
+      "background": [
+        "image.gradient.dark-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "music": [
+        "music.bed.emotional-01"
+      ]
+    },
+    "missing": [
+      "footage interview",
+      "subtitle pack"
+    ],
+    "required": [
+      "music"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "corporate/recruitment": {
+    "id": "corporate/recruitment",
+    "family": "corporate",
+    "genre": "recruitment",
+    "label": "Recruitment",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 30,
+      "cutFrames": [
+        20,
+        60
+      ],
+      "duration": [
+        30,
+        90
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "overlay": [
+        "texture.vignette.soft-01"
+      ],
+      "background": [
+        "image.gradient.dark-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "music": [
+        "music.bed.uplift-01"
+      ]
+    },
+    "missing": [
+      "footage tim"
+    ],
+    "required": [
+      "music"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "corporate/event-recap": {
+    "id": "corporate/event-recap",
+    "family": "corporate",
+    "genre": "event-recap",
+    "label": "Event Recap",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 30,
+      "cutFrames": [
+        20,
+        60
+      ],
+      "duration": [
+        30,
+        90
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "overlay": [
+        "texture.vignette.soft-01"
+      ],
+      "background": [
+        "image.gradient.dark-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "music": [
+        "music.bed.uplift-01"
+      ]
+    },
+    "missing": [
+      "footage acara"
+    ],
+    "required": [
+      "music"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "corporate/internal-comms": {
+    "id": "corporate/internal-comms",
+    "family": "corporate",
+    "genre": "internal-comms",
+    "label": "Internal Comms",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 30,
+      "cutFrames": [
+        20,
+        60
+      ],
+      "duration": [
+        30,
+        90
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "overlay": [
+        "texture.vignette.soft-01"
+      ],
+      "background": [
+        "image.gradient.dark-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "music": [
+        "music.bed.corporate-01"
+      ]
+    },
+    "missing": [
+      "slide / deck"
+    ],
+    "required": [
+      "music"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "ads/iklan": {
+    "id": "ads/iklan",
+    "family": "ads",
+    "genre": "iklan",
+    "label": "Iklan",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        10,
+        24
+      ],
+      "duration": [
+        6,
+        30
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "impact": [
+        "sfx.impact.heavy-01"
+      ],
+      "overlay": [
+        "image.flare.anamorphic-01"
+      ],
+      "ui": [
+        "sfx.click.ui-02",
+        "sfx.coin.reward-01"
+      ],
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "music": [
+        "music.bed.uplift-01"
+      ],
+      "image": [
+        "image.gradient.mesh-03"
+      ]
+    },
+    "missing": [
+      "product footage",
+      "endcard",
+      "disclaimer"
+    ],
+    "required": [
+      "music",
+      "impact"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "ads/ugc-ad": {
+    "id": "ads/ugc-ad",
+    "family": "ads",
+    "genre": "ugc-ad",
+    "label": "UGC Ad",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "impact": [
+        "sfx.impact.heavy-01",
+        "sfx.impact.soft-01"
+      ],
+      "overlay": [
+        "image.flare.anamorphic-01"
+      ],
+      "ui": [
+        "sfx.click.ui-02"
+      ],
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "music": [
+        "music.bed.lofi-01"
+      ]
+    },
+    "missing": [
+      "footage creator"
+    ],
+    "required": [
+      "music",
+      "impact"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "ads/product-demo": {
+    "id": "ads/product-demo",
+    "family": "ads",
+    "genre": "product-demo",
+    "label": "Product Demo",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        15,
+        30
+      ],
+      "duration": [
+        15,
+        45
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "impact": [
+        "sfx.impact.heavy-01"
+      ],
+      "overlay": [
+        "image.flare.anamorphic-01"
+      ],
+      "ui": [
+        "sfx.click.ui-02"
+      ],
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "music": [
+        "music.bed.corporate-01"
+      ]
+    },
+    "missing": [
+      "footage produk"
+    ],
+    "required": [
+      "music",
+      "impact"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "ads/before-after": {
+    "id": "ads/before-after",
+    "family": "ads",
+    "genre": "before-after",
+    "label": "Before / After",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01",
+        "sfx.whoosh.fast-01"
+      ],
+      "impact": [
+        "sfx.impact.heavy-01",
+        "sfx.impact.soft-01"
+      ],
+      "overlay": [
+        "image.flare.anamorphic-01"
+      ],
+      "ui": [
+        "sfx.click.ui-02"
+      ],
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "music": [
+        "music.bed.uplift-01"
+      ]
+    },
+    "missing": [
+      "dua footage/foto"
+    ],
+    "required": [
+      "music",
+      "impact"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "ads/sizzle-reel": {
+    "id": "ads/sizzle-reel",
+    "family": "ads",
+    "genre": "sizzle-reel",
+    "label": "Sizzle Reel",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 30,
+      "cutFrames": [
+        20,
+        60
+      ],
+      "duration": [
+        30,
+        90
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "impact": [
+        "sfx.impact.heavy-01",
+        "sfx.boom.cinematic-01"
+      ],
+      "overlay": [
+        "image.flare.anamorphic-01"
+      ],
+      "ui": [
+        "sfx.click.ui-02"
+      ],
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "music": [
+        "music.remix.punchy-01"
+      ]
+    },
+    "missing": [
+      "footage montase"
+    ],
+    "required": [
+      "music",
+      "impact"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "ads/live-shop-recap": {
+    "id": "ads/live-shop-recap",
+    "family": "ads",
+    "genre": "live-shop-recap",
+    "label": "Live Shop Recap",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "impact": [
+        "sfx.impact.heavy-01"
+      ],
+      "overlay": [
+        "image.flare.anamorphic-01"
+      ],
+      "ui": [
+        "sfx.click.ui-02",
+        "sfx.coin.reward-01"
+      ],
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "music": [
+        "music.remix.punchy-01"
+      ]
+    },
+    "missing": [
+      "rekaman live",
+      "harga/produk card"
+    ],
+    "required": [
+      "music",
+      "impact"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "cinematic/cinematic-travel": {
+    "id": "cinematic/cinematic-travel",
+    "family": "cinematic",
+    "genre": "cinematic-travel",
+    "label": "Cinematic Travel",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 30,
+      "cutFrames": [
+        60,
+        180
+      ],
+      "duration": [
+        60,
+        150
+      ]
+    },
+    "slots": {
+      "texture": [
+        "texture.noise.film-4k",
+        "texture.vignette.soft-01"
+      ],
+      "whoosh": [
+        "sfx.whoosh.slow-01"
+      ],
+      "impact": [
+        "sfx.boom.cinematic-01"
+      ],
+      "transition": [
+        "sfx.riser.tension-01"
+      ],
+      "music": [
+        "music.bed.emotional-01"
+      ],
+      "image": [
+        "image.lightleak.warm-01"
+      ]
+    },
+    "missing": [
+      "footage perjalanan",
+      "LUT"
+    ],
+    "required": [
+      "music",
+      "texture"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "cinematic/mini-doc": {
+    "id": "cinematic/mini-doc",
+    "family": "cinematic",
+    "genre": "mini-doc",
+    "label": "Mini Doc",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 24,
+      "cutFrames": [
+        80,
+        240
+      ],
+      "duration": [
+        180,
+        600
+      ]
+    },
+    "slots": {
+      "texture": [
+        "texture.noise.film-4k",
+        "texture.vignette.soft-01"
+      ],
+      "whoosh": [
+        "sfx.whoosh.slow-01"
+      ],
+      "impact": [
+        "sfx.boom.cinematic-01"
+      ],
+      "transition": [
+        "sfx.riser.tension-01"
+      ],
+      "music": [
+        "music.bed.tension-01"
+      ],
+      "ambience": [
+        "sfx.static.hiss-01"
+      ]
+    },
+    "missing": [
+      "footage interview + b-roll"
+    ],
+    "required": [
+      "music",
+      "texture"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "cinematic/music-video": {
+    "id": "cinematic/music-video",
+    "family": "cinematic",
+    "genre": "music-video",
+    "label": "Music Video",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 24,
+      "cutFrames": [
+        12,
+        48
+      ],
+      "duration": [
+        120,
+        240
+      ]
+    },
+    "slots": {
+      "texture": [
+        "texture.noise.film-4k",
+        "texture.vignette.soft-01"
+      ],
+      "whoosh": [
+        "sfx.whoosh.slow-01"
+      ],
+      "impact": [
+        "sfx.boom.cinematic-01",
+        "sfx.impact.heavy-02"
+      ],
+      "transition": [
+        "sfx.riser.tension-01"
+      ],
+      "music": [
+        "music.remix.punchy-01"
+      ]
+    },
+    "missing": [
+      "lagu + footage"
+    ],
+    "required": [
+      "music",
+      "texture"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "cinematic/wedding-highlight": {
+    "id": "cinematic/wedding-highlight",
+    "family": "cinematic",
+    "genre": "wedding-highlight",
+    "label": "Wedding Highlight",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 24,
+      "cutFrames": [
+        60,
+        180
+      ],
+      "duration": [
+        180,
+        360
+      ]
+    },
+    "slots": {
+      "texture": [
+        "texture.noise.film-4k",
+        "texture.vignette.soft-01"
+      ],
+      "whoosh": [
+        "sfx.whoosh.slow-01"
+      ],
+      "impact": [
+        "sfx.boom.cinematic-01"
+      ],
+      "transition": [
+        "sfx.riser.tension-01"
+      ],
+      "music": [
+        "music.bed.emotional-01"
+      ],
+      "image": [
+        "image.bokeh.party-01"
+      ]
+    },
+    "missing": [
+      "footage acara panjang"
+    ],
+    "required": [
+      "music",
+      "texture"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "cinematic/aerial-drone": {
+    "id": "cinematic/aerial-drone",
+    "family": "cinematic",
+    "genre": "aerial-drone",
+    "label": "Aerial / Drone",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 30,
+      "cutFrames": [
+        60,
+        180
+      ],
+      "duration": [
+        60,
+        150
+      ]
+    },
+    "slots": {
+      "texture": [
+        "texture.noise.film-4k",
+        "texture.vignette.soft-01"
+      ],
+      "whoosh": [
+        "sfx.whoosh.slow-01"
+      ],
+      "impact": [
+        "sfx.boom.cinematic-01"
+      ],
+      "transition": [
+        "sfx.riser.tension-01"
+      ],
+      "music": [
+        "music.bed.uplift-01"
+      ],
+      "image": [
+        "image.gradient.mesh-02"
+      ]
+    },
+    "missing": [
+      "footage drone"
+    ],
+    "required": [
+      "music",
+      "texture"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "slideshow/photodump": {
+    "id": "slideshow/photodump",
+    "family": "slideshow",
+    "genre": "photodump",
+    "label": "Photodump",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        10,
+        20
+      ],
+      "duration": [
+        10,
+        20
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "texture": [
+        "texture.paper.fiber-01"
+      ],
+      "overlay": [
+        "texture.vignette.soft-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "music": [
+        "music.bed.lofi-01"
+      ],
+      "image": [
+        "image.bokeh.party-01"
+      ],
+      "transition": [
+        "sfx.camera.shutter-01"
+      ]
+    },
+    "missing": [
+      "foto"
+    ],
+    "required": [
+      "music",
+      "image"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "slideshow/slideshow": {
+    "id": "slideshow/slideshow",
+    "family": "slideshow",
+    "genre": "slideshow",
+    "label": "Slideshow",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "1:1",
+      "fps": 30,
+      "cutFrames": [
+        10,
+        30
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "texture": [
+        "texture.paper.fiber-01"
+      ],
+      "overlay": [
+        "texture.vignette.soft-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "music": [
+        "music.bed.corporate-01"
+      ],
+      "image": [
+        "image.paper.card-01"
+      ]
+    },
+    "missing": [
+      "foto"
+    ],
+    "required": [
+      "music",
+      "image"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "slideshow/birthday-video": {
+    "id": "slideshow/birthday-video",
+    "family": "slideshow",
+    "genre": "birthday-video",
+    "label": "Birthday Video",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "1:1",
+      "fps": 30,
+      "cutFrames": [
+        20,
+        45
+      ],
+      "duration": [
+        20,
+        40
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "texture": [
+        "texture.paper.fiber-01"
+      ],
+      "overlay": [
+        "texture.vignette.soft-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "music": [
+        "music.bed.uplift-01"
+      ],
+      "image": [
+        "image.confetti.burst-01"
+      ]
+    },
+    "missing": [
+      "foto + ucapan"
+    ],
+    "required": [
+      "music",
+      "image"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "slideshow/memorial-tribute": {
+    "id": "slideshow/memorial-tribute",
+    "family": "slideshow",
+    "genre": "memorial-tribute",
+    "label": "Memorial Tribute",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 30,
+      "cutFrames": [
+        60,
+        120
+      ],
+      "duration": [
+        60,
+        180
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "texture": [
+        "texture.paper.fiber-01"
+      ],
+      "overlay": [
+        "texture.vignette.soft-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "music": [
+        "music.bed.emotional-01"
+      ],
+      "image": [
+        "image.paper.card-01"
+      ],
+      "ambience": [
+        "sfx.heartbeat-01"
+      ]
+    },
+    "missing": [
+      "foto arsip"
+    ],
+    "required": [
+      "music",
+      "image"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "gaming/gaming-montage": {
+    "id": "gaming/gaming-montage",
+    "family": "gaming",
+    "genre": "gaming-montage",
+    "label": "Gaming Montage",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "impact": [
+        "sfx.impact.metal-01",
+        "sfx.impact.heavy-01"
+      ],
+      "glitch": [
+        "sfx.glitch.digital-01"
+      ],
+      "whoosh": [
+        "sfx.whoosh.fast-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01",
+        "sfx.coin.reward-01"
+      ],
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "music": [
+        "music.remix.punchy-01"
+      ]
+    },
+    "missing": [
+      "gameplay footage",
+      "HUD overlay",
+      "kill feed"
+    ],
+    "required": [
+      "impact",
+      "glitch"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "gaming/fragmovie": {
+    "id": "gaming/fragmovie",
+    "family": "gaming",
+    "genre": "fragmovie",
+    "label": "Fragmovie",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 30,
+      "cutFrames": [
+        20,
+        60
+      ],
+      "duration": [
+        30,
+        90
+      ]
+    },
+    "slots": {
+      "impact": [
+        "sfx.impact.metal-01",
+        "sfx.impact.heavy-01",
+        "sfx.boom.cinematic-01"
+      ],
+      "glitch": [
+        "sfx.glitch.digital-01"
+      ],
+      "whoosh": [
+        "sfx.whoosh.fast-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "music": [
+        "music.bed.tension-01"
+      ]
+    },
+    "missing": [
+      "demo/replay",
+      "hitmarker SFX"
+    ],
+    "required": [
+      "impact",
+      "glitch"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "gaming/esports-recap": {
+    "id": "gaming/esports-recap",
+    "family": "gaming",
+    "genre": "esports-recap",
+    "label": "Esports Recap",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 30,
+      "cutFrames": [
+        20,
+        60
+      ],
+      "duration": [
+        30,
+        90
+      ]
+    },
+    "slots": {
+      "impact": [
+        "sfx.impact.metal-01",
+        "sfx.impact.heavy-01"
+      ],
+      "glitch": [
+        "sfx.glitch.digital-01"
+      ],
+      "whoosh": [
+        "sfx.whoosh.fast-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "music": [
+        "music.bed.uplift-01"
+      ]
+    },
+    "missing": [
+      "footage match",
+      "bracket/team logo"
+    ],
+    "required": [
+      "impact",
+      "glitch"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "sports/sports-highlight": {
+    "id": "sports/sports-highlight",
+    "family": "sports",
+    "genre": "sports-highlight",
+    "label": "Sports Highlight",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 30,
+      "cutFrames": [
+        20,
+        60
+      ],
+      "duration": [
+        30,
+        90
+      ]
+    },
+    "slots": {
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "whoosh": [
+        "sfx.whoosh.fast-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "overlay": [
+        "image.lightleak.warm-01"
+      ],
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "music": [
+        "music.bed.uplift-01"
+      ]
+    },
+    "missing": [
+      "footage match",
+      "scoreboard"
+    ],
+    "required": [
+      "impact",
+      "music"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "sports/match-recap": {
+    "id": "sports/match-recap",
+    "family": "sports",
+    "genre": "match-recap",
+    "label": "Match Recap",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 30,
+      "cutFrames": [
+        20,
+        60
+      ],
+      "duration": [
+        30,
+        90
+      ]
+    },
+    "slots": {
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "whoosh": [
+        "sfx.whoosh.fast-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "overlay": [
+        "image.lightleak.warm-01"
+      ],
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "music": [
+        "music.bed.tension-01"
+      ],
+      "image": [
+        "image.gradient.dark-01"
+      ]
+    },
+    "missing": [
+      "footage match",
+      "stat card"
+    ],
+    "required": [
+      "impact",
+      "music"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "sports/fitness-progress": {
+    "id": "sports/fitness-progress",
+    "family": "sports",
+    "genre": "fitness-progress",
+    "label": "Fitness Progress",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "whoosh": [
+        "sfx.whoosh.fast-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "overlay": [
+        "image.lightleak.warm-01"
+      ],
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "music": [
+        "music.remix.punchy-01"
+      ]
+    },
+    "missing": [
+      "footage latihan",
+      "timer component"
+    ],
+    "required": [
+      "impact",
+      "music"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "food/food-recipe": {
+    "id": "food/food-recipe",
+    "family": "food",
+    "genre": "food-recipe",
+    "label": "Food Recipe",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        20,
+        45
+      ],
+      "duration": [
+        30,
+        90
+      ]
+    },
+    "slots": {
+      "ambience": [
+        "sfx.static.hiss-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "overlay": [
+        "image.lightleak.warm-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "music": [
+        "music.bed.lofi-01"
+      ]
+    },
+    "missing": [
+      "footage masak + makro"
+    ],
+    "required": [
+      "music",
+      "ambience"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "food/food-promo": {
+    "id": "food/food-promo",
+    "family": "food",
+    "genre": "food-promo",
+    "label": "Food Promo",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "ambience": [
+        "sfx.static.hiss-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "overlay": [
+        "image.lightleak.warm-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "music": [
+        "music.bed.uplift-01"
+      ]
+    },
+    "missing": [
+      "footage produk"
+    ],
+    "required": [
+      "music",
+      "ambience"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "food/satisfying-asmr": {
+    "id": "food/satisfying-asmr",
+    "family": "food",
+    "genre": "satisfying-asmr",
+    "label": "Satisfying / ASMR",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        12,
+        40
+      ],
+      "duration": [
+        20,
+        45
+      ]
+    },
+    "slots": {
+      "ambience": [
+        "sfx.static.hiss-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "overlay": [
+        "image.lightleak.warm-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "music": [
+        "music.bed.lofi-01"
+      ]
+    },
+    "missing": [
+      "footage makro"
+    ],
+    "required": [
+      "music",
+      "ambience"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "fashion-beauty/lookbook": {
+    "id": "fashion-beauty/lookbook",
+    "family": "fashion-beauty",
+    "genre": "lookbook",
+    "label": "Lookbook",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.whoosh.fast-01"
+      ],
+      "texture": [
+        "texture.vhs.scanline-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "overlay": [
+        "image.flare.anamorphic-01"
+      ],
+      "music": [
+        "music.remix.punchy-01"
+      ],
+      "glitch": [
+        "sfx.glitch.digital-02"
+      ]
+    },
+    "missing": [
+      "footage model"
+    ],
+    "required": [
+      "music",
+      "whoosh"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "fashion-beauty/grwm": {
+    "id": "fashion-beauty/grwm",
+    "family": "fashion-beauty",
+    "genre": "grwm",
+    "label": "GRWM",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        20,
+        50
+      ],
+      "duration": [
+        30,
+        60
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.whoosh.fast-01"
+      ],
+      "texture": [
+        "texture.vhs.scanline-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "overlay": [
+        "image.flare.anamorphic-01"
+      ],
+      "music": [
+        "music.bed.uplift-01"
+      ]
+    },
+    "missing": [
+      "footage"
+    ],
+    "required": [
+      "music",
+      "whoosh"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "fashion-beauty/beauty-transition": {
+    "id": "fashion-beauty/beauty-transition",
+    "family": "fashion-beauty",
+    "genre": "beauty-transition",
+    "label": "Beauty Transition",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.whoosh.fast-01",
+        "sfx.swoosh.card-01"
+      ],
+      "texture": [
+        "texture.vhs.scanline-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "overlay": [
+        "image.flare.anamorphic-01"
+      ],
+      "music": [
+        "music.bed.lofi-01"
+      ]
+    },
+    "missing": [
+      "dua footage before/after"
+    ],
+    "required": [
+      "music",
+      "whoosh"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "ai-generated/faceless-voiceover": {
+    "id": "ai-generated/faceless-voiceover",
+    "family": "ai-generated",
+    "genre": "faceless-voiceover",
+    "label": "Faceless Voiceover",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        12,
+        40
+      ],
+      "duration": [
+        20,
+        45
+      ]
+    },
+    "slots": {
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "music": [
+        "music.bed.lofi-01"
+      ],
+      "background": [
+        "image.gradient.mesh-02"
+      ]
+    },
+    "missing": [
+      "klip AI (Veo/Sora)",
+      "VO"
+    ],
+    "required": [
+      "music",
+      "clip"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "ai-generated/ai-avatar": {
+    "id": "ai-generated/ai-avatar",
+    "family": "ai-generated",
+    "genre": "ai-avatar",
+    "label": "AI Avatar",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        4,
+        10
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "music": [
+        "music.bed.corporate-01"
+      ]
+    },
+    "missing": [
+      "avatar footage",
+      "script"
+    ],
+    "required": [
+      "music",
+      "clip"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "ai-generated/ai-broll": {
+    "id": "ai-generated/ai-broll",
+    "family": "ai-generated",
+    "genre": "ai-broll",
+    "label": "AI B-Roll",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 30,
+      "cutFrames": [
+        20,
+        60
+      ],
+      "duration": [
+        30,
+        90
+      ]
+    },
+    "slots": {
+      "texture": [
+        "texture.noise.film-4k"
+      ],
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "music": [
+        "music.bed.tension-01"
+      ],
+      "background": [
+        "image.gradient.mesh-01"
+      ]
+    },
+    "missing": [
+      "klip AI"
+    ],
+    "required": [
+      "music",
+      "clip"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "greeting/lebaran": {
+    "id": "greeting/lebaran",
+    "family": "greeting",
+    "genre": "lebaran",
+    "label": "Lebaran",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        40,
+        90
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "image": [
+        "image.confetti.burst-01",
+        "image.gradient.mesh-03"
+      ],
+      "overlay": [
+        "texture.vignette.soft-01"
+      ],
+      "texture": [
+        "texture.paper.fiber-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "music": [
+        "music.bed.emotional-01"
+      ]
+    },
+    "missing": [
+      "ornamen ketupat/masjid",
+      "font arab"
+    ],
+    "required": [
+      "music",
+      "image"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "greeting/natal-tahun-baru": {
+    "id": "greeting/natal-tahun-baru",
+    "family": "greeting",
+    "genre": "natal-tahun-baru",
+    "label": "Natal & Tahun Baru",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        40,
+        90
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "image": [
+        "image.confetti.burst-01",
+        "image.bokeh.party-01"
+      ],
+      "overlay": [
+        "texture.vignette.soft-01"
+      ],
+      "texture": [
+        "texture.paper.fiber-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "music": [
+        "music.bed.uplift-01"
+      ]
+    },
+    "missing": [
+      "ornamen salju/pohon"
+    ],
+    "required": [
+      "music",
+      "image"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "greeting/wisuda": {
+    "id": "greeting/wisuda",
+    "family": "greeting",
+    "genre": "wisuda",
+    "label": "Wisuda",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        30,
+        60
+      ],
+      "duration": [
+        20,
+        40
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "image": [
+        "image.confetti.burst-01"
+      ],
+      "overlay": [
+        "texture.vignette.soft-01"
+      ],
+      "texture": [
+        "texture.paper.fiber-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "music": [
+        "music.bed.uplift-01"
+      ]
+    },
+    "missing": [
+      "foto wisudawan"
+    ],
+    "required": [
+      "music",
+      "image"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "greeting/anniversary": {
+    "id": "greeting/anniversary",
+    "family": "greeting",
+    "genre": "anniversary",
+    "label": "Anniversary",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 30,
+      "cutFrames": [
+        40,
+        90
+      ],
+      "duration": [
+        30,
+        60
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "image": [
+        "image.confetti.burst-01"
+      ],
+      "overlay": [
+        "texture.vignette.soft-01"
+      ],
+      "texture": [
+        "texture.paper.fiber-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "music": [
+        "music.bed.emotional-01"
+      ]
+    },
+    "missing": [
+      "foto arsip"
+    ],
+    "required": [
+      "music",
+      "image"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "greeting/hari-raya-lain": {
+    "id": "greeting/hari-raya-lain",
+    "family": "greeting",
+    "genre": "hari-raya-lain",
+    "label": "Hari Raya Lain",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "9:16",
+      "fps": 30,
+      "cutFrames": [
+        40,
+        90
+      ],
+      "duration": [
+        15,
+        30
+      ]
+    },
+    "slots": {
+      "whoosh": [
+        "sfx.swoosh.card-01"
+      ],
+      "image": [
+        "image.confetti.burst-01"
+      ],
+      "overlay": [
+        "texture.vignette.soft-01"
+      ],
+      "texture": [
+        "texture.paper.fiber-01"
+      ],
+      "ui": [
+        "sfx.click.ui-01"
+      ],
+      "music": [
+        "music.bed.corporate-01"
+      ]
+    },
+    "missing": [
+      "ornamen musiman"
+    ],
+    "required": [
+      "music",
+      "image"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "qa/bug-report": {
+    "id": "qa/bug-report",
+    "family": "qa",
+    "genre": "bug-report",
+    "label": "Bug Report",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 30,
+      "cutFrames": [
+        30,
+        120
+      ],
+      "duration": [
+        10,
+        60
+      ]
+    },
+    "slots": {
+      "ui": [
+        "sfx.click.ui-01",
+        "sfx.pop.notify-01",
+        "sfx.click.ui-02"
+      ],
+      "whoosh": [
+        "sfx.swipe.ui-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "texture": [
+        "texture.grid.blueprint-01"
+      ],
+      "overlay": [
+        "texture.vignette.soft-01"
+      ]
+    },
+    "missing": [
+      "rekaman halaman (npm run record)"
+    ],
+    "required": [
+      "ui"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "qa/fix-verification": {
+    "id": "qa/fix-verification",
+    "family": "qa",
+    "genre": "fix-verification",
+    "label": "Fix Verification (before/after)",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 30,
+      "cutFrames": [
+        30,
+        120
+      ],
+      "duration": [
+        10,
+        45
+      ]
+    },
+    "slots": {
+      "ui": [
+        "sfx.click.ui-01",
+        "sfx.pop.notify-01"
+      ],
+      "whoosh": [
+        "sfx.swipe.ui-01",
+        "sfx.swoosh.card-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "texture": [
+        "texture.grid.blueprint-01"
+      ],
+      "overlay": [
+        "texture.vignette.soft-01"
+      ]
+    },
+    "missing": [
+      "rekaman sebelum dan sesudah perbaikan"
+    ],
+    "required": [
+      "ui"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "qa/uat-walkthrough": {
+    "id": "qa/uat-walkthrough",
+    "family": "qa",
+    "genre": "uat-walkthrough",
+    "label": "UAT Walkthrough",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 30,
+      "cutFrames": [
+        60,
+        180
+      ],
+      "duration": [
+        30,
+        180
+      ]
+    },
+    "slots": {
+      "ui": [
+        "sfx.click.ui-01",
+        "sfx.pop.notify-01"
+      ],
+      "whoosh": [
+        "sfx.swipe.ui-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "texture": [
+        "texture.grid.blueprint-01"
+      ],
+      "overlay": [
+        "texture.vignette.soft-01"
+      ],
+      "music": [
+        "music.bed.corporate-01"
+      ]
+    },
+    "missing": [
+      "rekaman alur fitur"
+    ],
+    "required": [
+      "ui"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "qa/test-run-recap": {
+    "id": "qa/test-run-recap",
+    "family": "qa",
+    "genre": "test-run-recap",
+    "label": "Test Run Recap",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 30,
+      "cutFrames": [
+        45,
+        120
+      ],
+      "duration": [
+        10,
+        45
+      ]
+    },
+    "slots": {
+      "ui": [
+        "sfx.click.ui-01",
+        "sfx.pop.notify-01",
+        "sfx.coin.reward-01"
+      ],
+      "whoosh": [
+        "sfx.swipe.ui-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "texture": [
+        "texture.grid.blueprint-01"
+      ],
+      "overlay": [
+        "texture.vignette.soft-01"
+      ]
+    },
+    "missing": [
+      "hasil uji (JSON) untuk TestMatrix"
+    ],
+    "required": [
+      "ui"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  },
+  "qa/design-review": {
+    "id": "qa/design-review",
+    "family": "qa",
+    "genre": "design-review",
+    "label": "Design Review",
+    "extends": "_shared",
+    "defaults": {
+      "aspect": "16:9",
+      "fps": 30,
+      "cutFrames": [
+        60,
+        180
+      ],
+      "duration": [
+        20,
+        120
+      ]
+    },
+    "slots": {
+      "ui": [
+        "sfx.click.ui-01",
+        "sfx.pop.notify-01"
+      ],
+      "whoosh": [
+        "sfx.swipe.ui-01"
+      ],
+      "impact": [
+        "sfx.impact.soft-01"
+      ],
+      "texture": [
+        "texture.grid.blueprint-01"
+      ],
+      "overlay": [
+        "texture.vignette.soft-01"
+      ]
+    },
+    "missing": [
+      "screenshot desain dan implementasi",
+      "komponen redline lengkap (jarak, ukuran font)"
+    ],
+    "required": [
+      "ui"
+    ],
+    "slotNames": [
+      "music",
+      "ambience",
+      "impact",
+      "whoosh",
+      "transition",
+      "ui",
+      "glitch",
+      "vo",
+      "texture",
+      "overlay",
+      "background",
+      "image",
+      "caption",
+      "font",
+      "clip",
+      "lottie"
+    ]
+  }
+}

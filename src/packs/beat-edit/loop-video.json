@@ -1,0 +1,30 @@
+{
+  "id": "beat-edit/loop-video",
+  "family": "beat-edit",
+  "genre": "loop-video",
+  "label": "Loop Video",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      0,
+      0
+    ],
+    "duration": [
+      3,
+      8
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.lofi-01"
+    ],
+    "whoosh": [
+      "sfx.swoosh.card-01"
+    ]
+  },
+  "missing": [
+    "clip pendek yang seamless"
+  ]
+}

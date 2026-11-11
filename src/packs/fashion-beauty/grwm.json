@@ -1,0 +1,27 @@
+{
+  "id": "fashion-beauty/grwm",
+  "family": "fashion-beauty",
+  "genre": "grwm",
+  "label": "GRWM",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      20,
+      50
+    ],
+    "duration": [
+      30,
+      60
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.uplift-01"
+    ]
+  },
+  "missing": [
+    "footage"
+  ]
+}

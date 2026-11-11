@@ -1,0 +1,30 @@
+{
+  "id": "talking-head/reaction-stitch",
+  "family": "talking-head",
+  "genre": "reaction-stitch",
+  "label": "Reaction / Stitch",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      4,
+      10
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "impact": [
+      "sfx.impact.soft-01"
+    ],
+    "ui": [
+      "sfx.pop.notify-01"
+    ]
+  },
+  "missing": [
+    "video reaktan"
+  ]
+}

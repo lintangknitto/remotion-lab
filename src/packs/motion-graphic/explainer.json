@@ -1,0 +1,31 @@
+{
+  "id": "motion-graphic/explainer",
+  "family": "motion-graphic",
+  "genre": "explainer",
+  "label": "Explainer",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "16:9",
+    "fps": 30,
+    "cutFrames": [
+      20,
+      60
+    ],
+    "duration": [
+      30,
+      90
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.corporate-01"
+    ],
+    "background": [
+      "image.gradient.mesh-01"
+    ]
+  },
+  "missing": [
+    "ikon set",
+    "VO"
+  ]
+}

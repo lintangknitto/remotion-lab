@@ -1,0 +1,21 @@
+{
+  "id": "beat-edit/_shared",
+  "family": "beat-edit",
+  "label": "Beat Edit (shared)",
+  "slots": {
+    "impact": [
+      "sfx.impact.heavy-01",
+      "sfx.impact.heavy-02"
+    ],
+    "whoosh": [
+      "sfx.whoosh.fast-01",
+      "sfx.whoosh.slow-01"
+    ],
+    "texture": [
+      "texture.noise.film-4k"
+    ],
+    "overlay": [
+      "texture.vignette.soft-01"
+    ]
+  }
+}

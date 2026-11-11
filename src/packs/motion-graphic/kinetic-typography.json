@@ -1,0 +1,34 @@
+{
+  "id": "motion-graphic/kinetic-typography",
+  "family": "motion-graphic",
+  "genre": "kinetic-typography",
+  "label": "Kinetic Typography",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "1:1",
+    "fps": 30,
+    "cutFrames": [
+      10,
+      30
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.remix.punchy-01"
+    ],
+    "impact": [
+      "sfx.impact.heavy-01"
+    ],
+    "texture": [
+      "texture.halftone.dots-01"
+    ]
+  },
+  "missing": [
+    "font display",
+    "lirik/teks"
+  ]
+}

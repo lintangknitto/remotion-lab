@@ -1,0 +1,28 @@
+{
+  "id": "motion-graphic/infographic",
+  "family": "motion-graphic",
+  "genre": "infographic",
+  "label": "Infographic",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "1:1",
+    "fps": 30,
+    "cutFrames": [
+      10,
+      30
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.uplift-01"
+    ]
+  },
+  "missing": [
+    "ikon set",
+    "dataset"
+  ]
+}

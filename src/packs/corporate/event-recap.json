@@ -1,0 +1,30 @@
+{
+  "id": "corporate/event-recap",
+  "family": "corporate",
+  "genre": "event-recap",
+  "label": "Event Recap",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "16:9",
+    "fps": 30,
+    "cutFrames": [
+      20,
+      60
+    ],
+    "duration": [
+      30,
+      90
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.uplift-01"
+    ],
+    "impact": [
+      "sfx.impact.soft-01"
+    ]
+  },
+  "missing": [
+    "footage acara"
+  ]
+}

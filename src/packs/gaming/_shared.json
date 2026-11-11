@@ -1,0 +1,23 @@
+{
+  "id": "gaming/_shared",
+  "family": "gaming",
+  "label": "Gaming (shared)",
+  "slots": {
+    "impact": [
+      "sfx.impact.metal-01",
+      "sfx.impact.heavy-01"
+    ],
+    "glitch": [
+      "sfx.glitch.digital-01"
+    ],
+    "whoosh": [
+      "sfx.whoosh.fast-01"
+    ],
+    "ui": [
+      "sfx.click.ui-01"
+    ],
+    "texture": [
+      "texture.noise.film-4k"
+    ]
+  }
+}

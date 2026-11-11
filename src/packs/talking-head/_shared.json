@@ -1,0 +1,19 @@
+{
+  "id": "talking-head/_shared",
+  "family": "talking-head",
+  "label": "Talking Head / UGC (shared)",
+  "slots": {
+    "ui": [
+      "sfx.click.ui-01"
+    ],
+    "whoosh": [
+      "sfx.swoosh.card-01"
+    ],
+    "caption": [
+      "image.caption.pill-01",
+      "image.caption.bubble-01",
+      "image.caption.stroke-01",
+      "image.caption.arrow-01"
+    ]
+  }
+}

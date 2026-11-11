@@ -1,0 +1,27 @@
+{
+  "id": "greeting/anniversary",
+  "family": "greeting",
+  "genre": "anniversary",
+  "label": "Anniversary",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "16:9",
+    "fps": 30,
+    "cutFrames": [
+      40,
+      90
+    ],
+    "duration": [
+      30,
+      60
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.emotional-01"
+    ]
+  },
+  "missing": [
+    "foto arsip"
+  ]
+}

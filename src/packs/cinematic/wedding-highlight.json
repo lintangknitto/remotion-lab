@@ -1,0 +1,30 @@
+{
+  "id": "cinematic/wedding-highlight",
+  "family": "cinematic",
+  "genre": "wedding-highlight",
+  "label": "Wedding Highlight",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "16:9",
+    "fps": 24,
+    "cutFrames": [
+      60,
+      180
+    ],
+    "duration": [
+      180,
+      360
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.emotional-01"
+    ],
+    "image": [
+      "image.bokeh.party-01"
+    ]
+  },
+  "missing": [
+    "footage acara panjang"
+  ]
+}

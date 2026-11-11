@@ -1,0 +1,22 @@
+{
+  "id": "ads/_shared",
+  "family": "ads",
+  "label": "Ads (shared)",
+  "slots": {
+    "whoosh": [
+      "sfx.swoosh.card-01"
+    ],
+    "impact": [
+      "sfx.impact.heavy-01"
+    ],
+    "overlay": [
+      "image.flare.anamorphic-01"
+    ],
+    "ui": [
+      "sfx.click.ui-02"
+    ],
+    "texture": [
+      "texture.noise.film-4k"
+    ]
+  }
+}

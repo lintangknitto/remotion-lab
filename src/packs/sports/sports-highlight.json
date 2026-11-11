@@ -1,0 +1,28 @@
+{
+  "id": "sports/sports-highlight",
+  "family": "sports",
+  "genre": "sports-highlight",
+  "label": "Sports Highlight",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "16:9",
+    "fps": 30,
+    "cutFrames": [
+      20,
+      60
+    ],
+    "duration": [
+      30,
+      90
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.uplift-01"
+    ]
+  },
+  "missing": [
+    "footage match",
+    "scoreboard"
+  ]
+}

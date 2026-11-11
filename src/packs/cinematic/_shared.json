@@ -1,0 +1,20 @@
+{
+  "id": "cinematic/_shared",
+  "family": "cinematic",
+  "label": "Cinematic (shared)",
+  "slots": {
+    "texture": [
+      "texture.noise.film-4k",
+      "texture.vignette.soft-01"
+    ],
+    "whoosh": [
+      "sfx.whoosh.slow-01"
+    ],
+    "impact": [
+      "sfx.boom.cinematic-01"
+    ],
+    "transition": [
+      "sfx.riser.tension-01"
+    ]
+  }
+}

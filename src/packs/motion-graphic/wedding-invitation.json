@@ -1,0 +1,36 @@
+{
+  "id": "motion-graphic/wedding-invitation",
+  "family": "motion-graphic",
+  "genre": "wedding-invitation",
+  "label": "Wedding Invitation",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      40,
+      90
+    ],
+    "duration": [
+      30,
+      60
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.emotional-01"
+    ],
+    "texture": [
+      "texture.paper.fiber-01"
+    ],
+    "image": [
+      "image.paper.card-01",
+      "image.confetti.burst-01"
+    ]
+  },
+  "missing": [
+    "font script",
+    "ornamen floral",
+    "foto pasangan"
+  ]
+}

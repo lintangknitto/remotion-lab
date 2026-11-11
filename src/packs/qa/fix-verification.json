@@ -1,0 +1,27 @@
+{
+  "id": "qa/fix-verification",
+  "family": "qa",
+  "genre": "fix-verification",
+  "label": "Fix Verification (before/after)",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "16:9",
+    "fps": 30,
+    "cutFrames": [
+      30,
+      120
+    ],
+    "duration": [
+      10,
+      45
+    ]
+  },
+  "slots": {
+    "whoosh": [
+      "sfx.swoosh.card-01"
+    ]
+  },
+  "missing": [
+    "rekaman sebelum dan sesudah perbaikan"
+  ]
+}

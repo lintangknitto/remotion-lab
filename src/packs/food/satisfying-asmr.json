@@ -1,0 +1,27 @@
+{
+  "id": "food/satisfying-asmr",
+  "family": "food",
+  "genre": "satisfying-asmr",
+  "label": "Satisfying / ASMR",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      12,
+      40
+    ],
+    "duration": [
+      20,
+      45
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.lofi-01"
+    ]
+  },
+  "missing": [
+    "footage makro"
+  ]
+}

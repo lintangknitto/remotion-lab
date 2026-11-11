@@ -1,0 +1,1891 @@
+{
+  "generatedAt": "2026-11-11T07:52:51.185Z",
+  "stats": {
+    "families": 18,
+    "genres": 78,
+    "referencedAssets": 55
+  },
+  "families": [
+    {
+      "id": "beat-edit",
+      "label": "Beat Edit",
+      "required": [
+        "music",
+        "impact",
+        "texture"
+      ],
+      "sharedSlots": [
+        "impact",
+        "whoosh",
+        "texture",
+        "overlay"
+      ],
+      "genres": [
+        {
+          "id": "jedag-jedug",
+          "packId": "beat-edit/jedag-jedug",
+          "label": "Jedag Jedug",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": []
+        },
+        {
+          "id": "black-flash",
+          "packId": "beat-edit/black-flash",
+          "label": "Black Flash",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              6,
+              12
+            ],
+            "duration": [
+              8,
+              15
+            ]
+          },
+          "missing": []
+        },
+        {
+          "id": "velocity-edit",
+          "packId": "beat-edit/velocity-edit",
+          "label": "Velocity Edit",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              12,
+              40
+            ],
+            "duration": [
+              20,
+              45
+            ]
+          },
+          "missing": [
+            "clip footage 1080p60 (speed ramp butuh fps tinggi)"
+          ]
+        },
+        {
+          "id": "loop-video",
+          "packId": "beat-edit/loop-video",
+          "label": "Loop Video",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              0,
+              0
+            ],
+            "duration": [
+              3,
+              8
+            ]
+          },
+          "missing": [
+            "clip pendek yang seamless"
+          ]
+        },
+        {
+          "id": "tribute-edit",
+          "packId": "beat-edit/tribute-edit",
+          "label": "Tribute Edit",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              12,
+              40
+            ],
+            "duration": [
+              20,
+              45
+            ]
+          },
+          "missing": [
+            "foto/klip subjek"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vfx-edit",
+      "label": "VFX Edit",
+      "required": [
+        "glitch",
+        "overlay"
+      ],
+      "sharedSlots": [
+        "glitch",
+        "overlay",
+        "texture",
+        "whoosh"
+      ],
+      "genres": [
+        {
+          "id": "fx-edit",
+          "packId": "vfx-edit/fx-edit",
+          "label": "FX Edit",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "effect preset per klip (mask/clone) — butuh komponen baru"
+          ]
+        },
+        {
+          "id": "transition-edit",
+          "packId": "vfx-edit/transition-edit",
+          "label": "Transition Edit",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": []
+        },
+        {
+          "id": "clone-morph",
+          "packId": "vfx-edit/clone-morph",
+          "label": "Clone / Morph",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              12,
+              40
+            ],
+            "duration": [
+              20,
+              45
+            ]
+          },
+          "missing": [
+            "footage dua subjek identik"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amv",
+      "label": "AMV / Anime Edit",
+      "required": [
+        "music",
+        "clip",
+        "overlay"
+      ],
+      "sharedSlots": [
+        "overlay",
+        "texture",
+        "whoosh",
+        "impact"
+      ],
+      "genres": [
+        {
+          "id": "amv",
+          "packId": "amv/amv",
+          "label": "AMV",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 30,
+            "cutFrames": [
+              20,
+              60
+            ],
+            "duration": [
+              30,
+              90
+            ]
+          },
+          "missing": [
+            "klip anime (lisensi paling berisiko — catat sumber per file)"
+          ]
+        },
+        {
+          "id": "anime-edit",
+          "packId": "amv/anime-edit",
+          "label": "Anime Edit",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "klip anime vertikal"
+          ]
+        },
+        {
+          "id": "manga-edit",
+          "packId": "amv/manga-edit",
+          "label": "Manga Edit",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "panel manga / scan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clipping",
+      "label": "Clipping",
+      "required": [
+        "caption",
+        "ui"
+      ],
+      "sharedSlots": [
+        "ui",
+        "whoosh",
+        "caption",
+        "vo"
+      ],
+      "genres": [
+        {
+          "id": "podcast-clip",
+          "packId": "clipping/podcast-clip",
+          "label": "Podcast Clip",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "video panjang + transkrip (whisper)",
+            "caption pack (karaoke)"
+          ]
+        },
+        {
+          "id": "stream-clip",
+          "packId": "clipping/stream-clip",
+          "label": "Stream Clip",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "VOD stream",
+            "overlay chat / alert"
+          ]
+        },
+        {
+          "id": "youtube-clip",
+          "packId": "clipping/youtube-clip",
+          "label": "YouTube Clip",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "video panjang",
+            "caption pack"
+          ]
+        },
+        {
+          "id": "movie-recap",
+          "packId": "clipping/movie-recap",
+          "label": "Movie Recap",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "klip film",
+            "spoiler warning card"
+          ]
+        },
+        {
+          "id": "drama-recap",
+          "packId": "clipping/drama-recap",
+          "label": "Drama / Series Recap",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "klip drama",
+            "episode marker"
+          ]
+        },
+        {
+          "id": "sermon-clip",
+          "packId": "clipping/sermon-clip",
+          "label": "Sermon / Kajian Clip",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              12,
+              40
+            ],
+            "duration": [
+              20,
+              45
+            ]
+          },
+          "missing": [
+            "frame ayat / teks arab"
+          ]
+        },
+        {
+          "id": "webinar-clip",
+          "packId": "clipping/webinar-clip",
+          "label": "Webinar Clip",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 30,
+            "cutFrames": [
+              20,
+              45
+            ],
+            "duration": [
+              30,
+              90
+            ]
+          },
+          "missing": [
+            "rekaman webinar"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "talking-head",
+      "label": "Talking Head / UGC",
+      "required": [
+        "caption"
+      ],
+      "sharedSlots": [
+        "ui",
+        "whoosh",
+        "caption"
+      ],
+      "genres": [
+        {
+          "id": "talking-head",
+          "packId": "talking-head/talking-head",
+          "label": "Talking Head",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "footage talent",
+            "caption pack"
+          ]
+        },
+        {
+          "id": "ugc",
+          "packId": "talking-head/ugc",
+          "label": "UGC",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "footage creator",
+            "caption pack"
+          ]
+        },
+        {
+          "id": "storytime",
+          "packId": "talking-head/storytime",
+          "label": "Storytime",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              12,
+              40
+            ],
+            "duration": [
+              20,
+              45
+            ]
+          },
+          "missing": [
+            "VO + b-roll"
+          ]
+        },
+        {
+          "id": "pov-skit",
+          "packId": "talking-head/pov-skit",
+          "label": "POV / Skit",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "footage akting"
+          ]
+        },
+        {
+          "id": "greenscreen-explainer",
+          "packId": "talking-head/greenscreen-explainer",
+          "label": "Green Screen Explainer",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "greenscreen footage",
+            "screenshot"
+          ]
+        },
+        {
+          "id": "reaction-stitch",
+          "packId": "talking-head/reaction-stitch",
+          "label": "Reaction / Stitch",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "video reaktan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meme",
+      "label": "Meme",
+      "required": [
+        "ui"
+      ],
+      "sharedSlots": [
+        "ui",
+        "glitch",
+        "impact",
+        "whoosh"
+      ],
+      "genres": [
+        {
+          "id": "meme-shitpost",
+          "packId": "meme/meme-shitpost",
+          "label": "Meme / Shitpost",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              2,
+              8
+            ],
+            "duration": [
+              5,
+              20
+            ]
+          },
+          "missing": [
+            "meme image / greenscreen"
+          ]
+        },
+        {
+          "id": "soundboard-edit",
+          "packId": "meme/soundboard-edit",
+          "label": "Soundboard Edit",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "soundboard pack"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "motion-graphic",
+      "label": "Motion Graphic",
+      "required": [
+        "music",
+        "ui"
+      ],
+      "sharedSlots": [
+        "whoosh",
+        "ui",
+        "background",
+        "texture",
+        "impact",
+        "overlay"
+      ],
+      "genres": [
+        {
+          "id": "explainer",
+          "packId": "motion-graphic/explainer",
+          "label": "Explainer",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 30,
+            "cutFrames": [
+              20,
+              60
+            ],
+            "duration": [
+              30,
+              90
+            ]
+          },
+          "missing": [
+            "ikon set",
+            "VO"
+          ]
+        },
+        {
+          "id": "kinetic-typography",
+          "packId": "motion-graphic/kinetic-typography",
+          "label": "Kinetic Typography",
+          "defaults": {
+            "aspect": "1:1",
+            "fps": 30,
+            "cutFrames": [
+              10,
+              30
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "font display",
+            "lirik/teks"
+          ]
+        },
+        {
+          "id": "lyric-video",
+          "packId": "motion-graphic/lyric-video",
+          "label": "Lyric Video",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 30,
+            "cutFrames": [
+              20,
+              60
+            ],
+            "duration": [
+              30,
+              90
+            ]
+          },
+          "missing": [
+            "lirik + timing"
+          ]
+        },
+        {
+          "id": "data-viz",
+          "packId": "motion-graphic/data-viz",
+          "label": "Data Viz",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 30,
+            "cutFrames": [
+              20,
+              60
+            ],
+            "duration": [
+              30,
+              90
+            ]
+          },
+          "missing": [
+            "dataset",
+            "chart component"
+          ]
+        },
+        {
+          "id": "tutorial",
+          "packId": "motion-graphic/tutorial",
+          "label": "Tutorial",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "screen recording"
+          ]
+        },
+        {
+          "id": "infographic",
+          "packId": "motion-graphic/infographic",
+          "label": "Infographic",
+          "defaults": {
+            "aspect": "1:1",
+            "fps": 30,
+            "cutFrames": [
+              10,
+              30
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "ikon set",
+            "dataset"
+          ]
+        },
+        {
+          "id": "wedding-invitation",
+          "packId": "motion-graphic/wedding-invitation",
+          "label": "Wedding Invitation",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              40,
+              90
+            ],
+            "duration": [
+              30,
+              60
+            ]
+          },
+          "missing": [
+            "font script",
+            "ornamen floral",
+            "foto pasangan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "corporate",
+      "label": "Corporate",
+      "required": [
+        "music"
+      ],
+      "sharedSlots": [
+        "whoosh",
+        "overlay",
+        "background",
+        "ui",
+        "impact",
+        "texture"
+      ],
+      "genres": [
+        {
+          "id": "company-profile",
+          "packId": "corporate/company-profile",
+          "label": "Company Profile",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 30,
+            "cutFrames": [
+              60,
+              180
+            ],
+            "duration": [
+              60,
+              150
+            ]
+          },
+          "missing": [
+            "logo board",
+            "lower third",
+            "footage kantor"
+          ]
+        },
+        {
+          "id": "testimonial",
+          "packId": "corporate/testimonial",
+          "label": "Testimonial",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 30,
+            "cutFrames": [
+              20,
+              60
+            ],
+            "duration": [
+              30,
+              90
+            ]
+          },
+          "missing": [
+            "footage interview",
+            "subtitle pack"
+          ]
+        },
+        {
+          "id": "recruitment",
+          "packId": "corporate/recruitment",
+          "label": "Recruitment",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 30,
+            "cutFrames": [
+              20,
+              60
+            ],
+            "duration": [
+              30,
+              90
+            ]
+          },
+          "missing": [
+            "footage tim"
+          ]
+        },
+        {
+          "id": "event-recap",
+          "packId": "corporate/event-recap",
+          "label": "Event Recap",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 30,
+            "cutFrames": [
+              20,
+              60
+            ],
+            "duration": [
+              30,
+              90
+            ]
+          },
+          "missing": [
+            "footage acara"
+          ]
+        },
+        {
+          "id": "internal-comms",
+          "packId": "corporate/internal-comms",
+          "label": "Internal Comms",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 30,
+            "cutFrames": [
+              20,
+              60
+            ],
+            "duration": [
+              30,
+              90
+            ]
+          },
+          "missing": [
+            "slide / deck"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ads",
+      "label": "Ads",
+      "required": [
+        "music",
+        "impact"
+      ],
+      "sharedSlots": [
+        "whoosh",
+        "impact",
+        "overlay",
+        "ui",
+        "texture"
+      ],
+      "genres": [
+        {
+          "id": "iklan",
+          "packId": "ads/iklan",
+          "label": "Iklan",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              10,
+              24
+            ],
+            "duration": [
+              6,
+              30
+            ]
+          },
+          "missing": [
+            "product footage",
+            "endcard",
+            "disclaimer"
+          ]
+        },
+        {
+          "id": "ugc-ad",
+          "packId": "ads/ugc-ad",
+          "label": "UGC Ad",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "footage creator"
+          ]
+        },
+        {
+          "id": "product-demo",
+          "packId": "ads/product-demo",
+          "label": "Product Demo",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              15,
+              30
+            ],
+            "duration": [
+              15,
+              45
+            ]
+          },
+          "missing": [
+            "footage produk"
+          ]
+        },
+        {
+          "id": "before-after",
+          "packId": "ads/before-after",
+          "label": "Before / After",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "dua footage/foto"
+          ]
+        },
+        {
+          "id": "sizzle-reel",
+          "packId": "ads/sizzle-reel",
+          "label": "Sizzle Reel",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 30,
+            "cutFrames": [
+              20,
+              60
+            ],
+            "duration": [
+              30,
+              90
+            ]
+          },
+          "missing": [
+            "footage montase"
+          ]
+        },
+        {
+          "id": "live-shop-recap",
+          "packId": "ads/live-shop-recap",
+          "label": "Live Shop Recap",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "rekaman live",
+            "harga/produk card"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cinematic",
+      "label": "Cinematic",
+      "required": [
+        "music",
+        "texture"
+      ],
+      "sharedSlots": [
+        "texture",
+        "whoosh",
+        "impact",
+        "transition"
+      ],
+      "genres": [
+        {
+          "id": "cinematic-travel",
+          "packId": "cinematic/cinematic-travel",
+          "label": "Cinematic Travel",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 30,
+            "cutFrames": [
+              60,
+              180
+            ],
+            "duration": [
+              60,
+              150
+            ]
+          },
+          "missing": [
+            "footage perjalanan",
+            "LUT"
+          ]
+        },
+        {
+          "id": "mini-doc",
+          "packId": "cinematic/mini-doc",
+          "label": "Mini Doc",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 24,
+            "cutFrames": [
+              80,
+              240
+            ],
+            "duration": [
+              180,
+              600
+            ]
+          },
+          "missing": [
+            "footage interview + b-roll"
+          ]
+        },
+        {
+          "id": "music-video",
+          "packId": "cinematic/music-video",
+          "label": "Music Video",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 24,
+            "cutFrames": [
+              12,
+              48
+            ],
+            "duration": [
+              120,
+              240
+            ]
+          },
+          "missing": [
+            "lagu + footage"
+          ]
+        },
+        {
+          "id": "wedding-highlight",
+          "packId": "cinematic/wedding-highlight",
+          "label": "Wedding Highlight",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 24,
+            "cutFrames": [
+              60,
+              180
+            ],
+            "duration": [
+              180,
+              360
+            ]
+          },
+          "missing": [
+            "footage acara panjang"
+          ]
+        },
+        {
+          "id": "aerial-drone",
+          "packId": "cinematic/aerial-drone",
+          "label": "Aerial / Drone",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 30,
+            "cutFrames": [
+              60,
+              180
+            ],
+            "duration": [
+              60,
+              150
+            ]
+          },
+          "missing": [
+            "footage drone"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "slideshow",
+      "label": "Slideshow",
+      "required": [
+        "music",
+        "image"
+      ],
+      "sharedSlots": [
+        "whoosh",
+        "texture",
+        "overlay",
+        "ui",
+        "impact"
+      ],
+      "genres": [
+        {
+          "id": "photodump",
+          "packId": "slideshow/photodump",
+          "label": "Photodump",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              10,
+              20
+            ],
+            "duration": [
+              10,
+              20
+            ]
+          },
+          "missing": [
+            "foto"
+          ]
+        },
+        {
+          "id": "slideshow",
+          "packId": "slideshow/slideshow",
+          "label": "Slideshow",
+          "defaults": {
+            "aspect": "1:1",
+            "fps": 30,
+            "cutFrames": [
+              10,
+              30
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "foto"
+          ]
+        },
+        {
+          "id": "birthday-video",
+          "packId": "slideshow/birthday-video",
+          "label": "Birthday Video",
+          "defaults": {
+            "aspect": "1:1",
+            "fps": 30,
+            "cutFrames": [
+              20,
+              45
+            ],
+            "duration": [
+              20,
+              40
+            ]
+          },
+          "missing": [
+            "foto + ucapan"
+          ]
+        },
+        {
+          "id": "memorial-tribute",
+          "packId": "slideshow/memorial-tribute",
+          "label": "Memorial Tribute",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 30,
+            "cutFrames": [
+              60,
+              120
+            ],
+            "duration": [
+              60,
+              180
+            ]
+          },
+          "missing": [
+            "foto arsip"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gaming",
+      "label": "Gaming",
+      "required": [
+        "impact",
+        "glitch"
+      ],
+      "sharedSlots": [
+        "impact",
+        "glitch",
+        "whoosh",
+        "ui",
+        "texture"
+      ],
+      "genres": [
+        {
+          "id": "gaming-montage",
+          "packId": "gaming/gaming-montage",
+          "label": "Gaming Montage",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "gameplay footage",
+            "HUD overlay",
+            "kill feed"
+          ]
+        },
+        {
+          "id": "fragmovie",
+          "packId": "gaming/fragmovie",
+          "label": "Fragmovie",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 30,
+            "cutFrames": [
+              20,
+              60
+            ],
+            "duration": [
+              30,
+              90
+            ]
+          },
+          "missing": [
+            "demo/replay",
+            "hitmarker SFX"
+          ]
+        },
+        {
+          "id": "esports-recap",
+          "packId": "gaming/esports-recap",
+          "label": "Esports Recap",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 30,
+            "cutFrames": [
+              20,
+              60
+            ],
+            "duration": [
+              30,
+              90
+            ]
+          },
+          "missing": [
+            "footage match",
+            "bracket/team logo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "label": "Sports",
+      "required": [
+        "impact",
+        "music"
+      ],
+      "sharedSlots": [
+        "impact",
+        "whoosh",
+        "ui",
+        "overlay",
+        "texture"
+      ],
+      "genres": [
+        {
+          "id": "sports-highlight",
+          "packId": "sports/sports-highlight",
+          "label": "Sports Highlight",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 30,
+            "cutFrames": [
+              20,
+              60
+            ],
+            "duration": [
+              30,
+              90
+            ]
+          },
+          "missing": [
+            "footage match",
+            "scoreboard"
+          ]
+        },
+        {
+          "id": "match-recap",
+          "packId": "sports/match-recap",
+          "label": "Match Recap",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 30,
+            "cutFrames": [
+              20,
+              60
+            ],
+            "duration": [
+              30,
+              90
+            ]
+          },
+          "missing": [
+            "footage match",
+            "stat card"
+          ]
+        },
+        {
+          "id": "fitness-progress",
+          "packId": "sports/fitness-progress",
+          "label": "Fitness Progress",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "footage latihan",
+            "timer component"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "label": "Food",
+      "required": [
+        "music",
+        "ambience"
+      ],
+      "sharedSlots": [
+        "ambience",
+        "ui",
+        "whoosh",
+        "overlay",
+        "impact"
+      ],
+      "genres": [
+        {
+          "id": "food-recipe",
+          "packId": "food/food-recipe",
+          "label": "Food Recipe",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              20,
+              45
+            ],
+            "duration": [
+              30,
+              90
+            ]
+          },
+          "missing": [
+            "footage masak + makro"
+          ]
+        },
+        {
+          "id": "food-promo",
+          "packId": "food/food-promo",
+          "label": "Food Promo",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "footage produk"
+          ]
+        },
+        {
+          "id": "satisfying-asmr",
+          "packId": "food/satisfying-asmr",
+          "label": "Satisfying / ASMR",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              12,
+              40
+            ],
+            "duration": [
+              20,
+              45
+            ]
+          },
+          "missing": [
+            "footage makro"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion-beauty",
+      "label": "Fashion & Beauty",
+      "required": [
+        "music",
+        "whoosh"
+      ],
+      "sharedSlots": [
+        "whoosh",
+        "texture",
+        "ui",
+        "impact",
+        "overlay"
+      ],
+      "genres": [
+        {
+          "id": "lookbook",
+          "packId": "fashion-beauty/lookbook",
+          "label": "Lookbook",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "footage model"
+          ]
+        },
+        {
+          "id": "grwm",
+          "packId": "fashion-beauty/grwm",
+          "label": "GRWM",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              20,
+              50
+            ],
+            "duration": [
+              30,
+              60
+            ]
+          },
+          "missing": [
+            "footage"
+          ]
+        },
+        {
+          "id": "beauty-transition",
+          "packId": "fashion-beauty/beauty-transition",
+          "label": "Beauty Transition",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "dua footage before/after"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-generated",
+      "label": "AI Generated",
+      "required": [
+        "music",
+        "clip"
+      ],
+      "sharedSlots": [
+        "texture",
+        "whoosh"
+      ],
+      "genres": [
+        {
+          "id": "faceless-voiceover",
+          "packId": "ai-generated/faceless-voiceover",
+          "label": "Faceless Voiceover",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              12,
+              40
+            ],
+            "duration": [
+              20,
+              45
+            ]
+          },
+          "missing": [
+            "klip AI (Veo/Sora)",
+            "VO"
+          ]
+        },
+        {
+          "id": "ai-avatar",
+          "packId": "ai-generated/ai-avatar",
+          "label": "AI Avatar",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              4,
+              10
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "avatar footage",
+            "script"
+          ]
+        },
+        {
+          "id": "ai-broll",
+          "packId": "ai-generated/ai-broll",
+          "label": "AI B-Roll",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 30,
+            "cutFrames": [
+              20,
+              60
+            ],
+            "duration": [
+              30,
+              90
+            ]
+          },
+          "missing": [
+            "klip AI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greeting",
+      "label": "Greeting & Seasonal",
+      "required": [
+        "music",
+        "image"
+      ],
+      "sharedSlots": [
+        "whoosh",
+        "image",
+        "overlay",
+        "texture",
+        "ui"
+      ],
+      "genres": [
+        {
+          "id": "lebaran",
+          "packId": "greeting/lebaran",
+          "label": "Lebaran",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              40,
+              90
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "ornamen ketupat/masjid",
+            "font arab"
+          ]
+        },
+        {
+          "id": "natal-tahun-baru",
+          "packId": "greeting/natal-tahun-baru",
+          "label": "Natal & Tahun Baru",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              40,
+              90
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "ornamen salju/pohon"
+          ]
+        },
+        {
+          "id": "wisuda",
+          "packId": "greeting/wisuda",
+          "label": "Wisuda",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              30,
+              60
+            ],
+            "duration": [
+              20,
+              40
+            ]
+          },
+          "missing": [
+            "foto wisudawan"
+          ]
+        },
+        {
+          "id": "anniversary",
+          "packId": "greeting/anniversary",
+          "label": "Anniversary",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 30,
+            "cutFrames": [
+              40,
+              90
+            ],
+            "duration": [
+              30,
+              60
+            ]
+          },
+          "missing": [
+            "foto arsip"
+          ]
+        },
+        {
+          "id": "hari-raya-lain",
+          "packId": "greeting/hari-raya-lain",
+          "label": "Hari Raya Lain",
+          "defaults": {
+            "aspect": "9:16",
+            "fps": 30,
+            "cutFrames": [
+              40,
+              90
+            ],
+            "duration": [
+              15,
+              30
+            ]
+          },
+          "missing": [
+            "ornamen musiman"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qa",
+      "label": "QA",
+      "required": [
+        "ui"
+      ],
+      "sharedSlots": [
+        "ui",
+        "whoosh",
+        "impact",
+        "texture",
+        "overlay"
+      ],
+      "genres": [
+        {
+          "id": "bug-report",
+          "packId": "qa/bug-report",
+          "label": "Bug Report",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 30,
+            "cutFrames": [
+              30,
+              120
+            ],
+            "duration": [
+              10,
+              60
+            ]
+          },
+          "missing": [
+            "rekaman halaman (npm run record)"
+          ]
+        },
+        {
+          "id": "fix-verification",
+          "packId": "qa/fix-verification",
+          "label": "Fix Verification (before/after)",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 30,
+            "cutFrames": [
+              30,
+              120
+            ],
+            "duration": [
+              10,
+              45
+            ]
+          },
+          "missing": [
+            "rekaman sebelum dan sesudah perbaikan"
+          ]
+        },
+        {
+          "id": "uat-walkthrough",
+          "packId": "qa/uat-walkthrough",
+          "label": "UAT Walkthrough",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 30,
+            "cutFrames": [
+              60,
+              180
+            ],
+            "duration": [
+              30,
+              180
+            ]
+          },
+          "missing": [
+            "rekaman alur fitur"
+          ]
+        },
+        {
+          "id": "test-run-recap",
+          "packId": "qa/test-run-recap",
+          "label": "Test Run Recap",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 30,
+            "cutFrames": [
+              45,
+              120
+            ],
+            "duration": [
+              10,
+              45
+            ]
+          },
+          "missing": [
+            "hasil uji (JSON) untuk TestMatrix"
+          ]
+        },
+        {
+          "id": "design-review",
+          "packId": "qa/design-review",
+          "label": "Design Review",
+          "defaults": {
+            "aspect": "16:9",
+            "fps": 30,
+            "cutFrames": [
+              60,
+              180
+            ],
+            "duration": [
+              20,
+              120
+            ]
+          },
+          "missing": [
+            "screenshot desain dan implementasi",
+            "komponen redline lengkap (jarak, ukuran font)"
+          ]
+        }
+      ]
+    }
+  ]
+}

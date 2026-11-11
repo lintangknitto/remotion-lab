@@ -1,0 +1,33 @@
+{
+  "id": "ads/sizzle-reel",
+  "family": "ads",
+  "genre": "sizzle-reel",
+  "label": "Sizzle Reel",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "16:9",
+    "fps": 30,
+    "cutFrames": [
+      20,
+      60
+    ],
+    "duration": [
+      30,
+      90
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.remix.punchy-01"
+    ],
+    "impact": [
+      "sfx.boom.cinematic-01"
+    ],
+    "texture": [
+      "texture.noise.film-4k"
+    ]
+  },
+  "missing": [
+    "footage montase"
+  ]
+}

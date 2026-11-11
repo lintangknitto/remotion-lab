@@ -1,0 +1,31 @@
+{
+  "id": "ai-generated/faceless-voiceover",
+  "family": "ai-generated",
+  "genre": "faceless-voiceover",
+  "label": "Faceless Voiceover",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      12,
+      40
+    ],
+    "duration": [
+      20,
+      45
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.lofi-01"
+    ],
+    "background": [
+      "image.gradient.mesh-02"
+    ]
+  },
+  "missing": [
+    "klip AI (Veo/Sora)",
+    "VO"
+  ]
+}

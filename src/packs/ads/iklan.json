@@ -1,0 +1,35 @@
+{
+  "id": "ads/iklan",
+  "family": "ads",
+  "genre": "iklan",
+  "label": "Iklan",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      10,
+      24
+    ],
+    "duration": [
+      6,
+      30
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.uplift-01"
+    ],
+    "image": [
+      "image.gradient.mesh-03"
+    ],
+    "ui": [
+      "sfx.coin.reward-01"
+    ]
+  },
+  "missing": [
+    "product footage",
+    "endcard",
+    "disclaimer"
+  ]
+}

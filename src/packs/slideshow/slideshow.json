@@ -1,0 +1,30 @@
+{
+  "id": "slideshow/slideshow",
+  "family": "slideshow",
+  "genre": "slideshow",
+  "label": "Slideshow",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "1:1",
+    "fps": 30,
+    "cutFrames": [
+      10,
+      30
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.corporate-01"
+    ],
+    "image": [
+      "image.paper.card-01"
+    ]
+  },
+  "missing": [
+    "foto"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "motion-graphic/tutorial",
+  "family": "motion-graphic",
+  "genre": "tutorial",
+  "label": "Tutorial",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      4,
+      10
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.lofi-01"
+    ],
+    "ui": [
+      "sfx.click.ui-02"
+    ]
+  },
+  "missing": [
+    "screen recording"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "talking-head/storytime",
+  "family": "talking-head",
+  "genre": "storytime",
+  "label": "Storytime",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      12,
+      40
+    ],
+    "duration": [
+      20,
+      45
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.tension-01"
+    ],
+    "impact": [
+      "sfx.impact.soft-01"
+    ],
+    "ui": [
+      "sfx.typewriter.loop-01"
+    ]
+  },
+  "missing": [
+    "VO + b-roll"
+  ]
+}

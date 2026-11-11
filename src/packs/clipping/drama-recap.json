@@ -1,0 +1,31 @@
+{
+  "id": "clipping/drama-recap",
+  "family": "clipping",
+  "genre": "drama-recap",
+  "label": "Drama / Series Recap",
+  "extends": "_shared",
+  "defaults": {
+    "aspect": "9:16",
+    "fps": 30,
+    "cutFrames": [
+      4,
+      10
+    ],
+    "duration": [
+      15,
+      30
+    ]
+  },
+  "slots": {
+    "music": [
+      "music.bed.tension-01"
+    ],
+    "impact": [
+      "sfx.impact.heavy-01"
+    ]
+  },
+  "missing": [
+    "klip drama",
+    "episode marker"
+  ]
+}
